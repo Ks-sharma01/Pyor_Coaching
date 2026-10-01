@@ -45,7 +45,8 @@
         <div class="row align-items-center">
           
           <div class="col-6 col-xl-2">
-            <img src="<?= BASE_URL ?>images/logo.png" height="50px"/>
+            <a href="<?= BASE_URL ?>index.php"><img src="<?= BASE_URL ?>images/logo.png" height="50px"/></a>
+            <!-- <img src="<?= BASE_URL ?>images/logo.png" height="50px"/> -->
             <!-- <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0">Coaching<span class="text-primary">.</span> </a></h1> -->
           </div>
 

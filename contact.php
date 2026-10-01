@@ -5,28 +5,24 @@ include "includes/header.php";
 
 ?>
 <!-- Contact Hero -->
-<section class="site-blocks-cover overflow-hidden" style="min-height: 420px;">
-    <div class="container">
-        <div class="row align-items-center" style="min-height: 420px;">
-            <div class="col-lg-10 ">
+<section class="site-blocks-cover overflow-hidden">
+  <div class="container">
+    <div class="row justify-content-center">
+          <div class="col-lg-11 mt-4">
 
-                <h1 style="color:#fff; font-size:52px; font-weight:bold;">
-                    Let's talk.
-                </h1>
+        <!-- <div class="row"> -->
+          <!-- <div class="col-lg-11 "> -->
 
-                <p class="text-white lead mt-3">
-                    You may know exactly what you want to work on.
-                    Or you may simply know that something needs attention. Either is fine.
-                </p>
+            <h1 class="mt-4">Let's talk.</h1>
+            <p>You may know exactly what you want to work on. Or you may simply know that something needs attention. Either is fine.</p>
+            <p class="text-white">Send me a note and tell me a little about what is on your mind.</p>
+          <!-- </div> -->
 
-                <p class="text-white">
-                    Send me a note and tell me a little
-                    about what is on your mind.
-                </p>
+        <!-- </div> -->
+      </div>
 
-            </div>
-        </div>
     </div>
+  </div>
 </section>
 
 
@@ -36,7 +32,7 @@ include "includes/header.php";
     <div class="container">
 
         <!-- Heading -->
-        <div class="row justify-content-center text-center mb-5">
+        <div class="row justify-content-center text-center mb-3">
 
             <div class="col-lg-8">
 
@@ -48,7 +44,7 @@ include "includes/header.php";
                      style="width:60px; height:3px; background:#F2A03A;">
                 </div>
 
-                <p class="mt-4">
+                <p class="mt-2">
                     Send me a note and tell me a little about what is on your mind.
                 </p>
 
@@ -60,9 +56,9 @@ include "includes/header.php";
         <div class="row">
             
             <!-- Contact Information -->
-            <div class="col-lg-5 mb-5 mb-lg-0">
+            <div class="col-lg-5 mb-4 mb-lg-0">
                 
-                <div class="pr-lg-4">
+                <div class="pr-lg-3">
                       
                     <!-- <img src="images/call.jpg" width="350px" height="400px"/> -->
 
@@ -150,9 +146,16 @@ include "includes/header.php";
                         </div>
                         
                     </div>
-                    
-                </div>
 
+                    
+                    <a href="https://www.amazon.in/Paint-Your-RAINBOW-Jyoti-Sapra-ebook/dp/B0HJNVXNX7" target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-primary text-white mt-3 ml-3 py-2 px-4"                  
+                        >
+                        Buy the Book
+                    </a>
+                </div>
+                
             </div>
 
 

@@ -13,8 +13,8 @@ include "includes/header.php";
                 <div class="row">
                     <div class="col-lg-11">
 
-                        <h1>One-to-one coaching when your people are at an important point of change.</h1>
-                        <!-- <p class="text-white smoothscroll">Sometimes they know exactly what the problem is. Sometimes they don't.</p> -->
+                        <h1>One-to-one coaching </h1>
+                        <p class="text-white smoothscroll">When your people are at an important point of change.</p>
                         <!-- <p class="text-white smoothscroll">Either way, coaching gives us a place to slow down, look at what is really going on and think about what comes next.</p> -->
                     </div>
 
@@ -25,7 +25,7 @@ include "includes/header.php";
     </div>
 </section>
 
-<div class="container-fluid bg-light">
+<div class="container-fluid bg-light mt-2 shadow-sm">
     <div class="row g-0 align-items-stretch">
 
         <!-- Left Image -->
@@ -129,12 +129,12 @@ include "includes/header.php";
     </div>
 </div>
 
-<section id="about-section" class="py-5 bg-light" aria-labelledby="coaching-heading">
+<section id="about-section" class="py-3 bg-light" aria-labelledby="coaching-heading">
 
     <div class="container">
 
         <!-- Heading -->
-        <div class="row justify-content-center text-center mb-5">
+        <div class="row justify-content-center text-center mb-3">
             <div class="col-12 col-md-10 col-lg-8">
 
                 <h2 class="text-black mb-3" id="coaching-heading">
@@ -155,7 +155,7 @@ include "includes/header.php";
             <!-- Gallup -->
             <div class="col-12 col-md-6">
                 <div class="card h-100 border-0 shadow-sm text-center">
-                    <div class="card-body p-4 p-md-5">
+                    <div class="card-body p-4 p-md-3">
 
                         <div class="mb-3"
                              style="font-size:42px; font-weight:700; color:#0F6E56;">
@@ -180,7 +180,7 @@ include "includes/header.php";
             <!-- 2023 Research -->
             <div class="col-12 col-md-6">
                 <div class="card h-100 border-0 shadow-sm text-center">
-                    <div class="card-body p-4 p-md-5">
+                    <div class="card-body p-4 p-md-3">
 
                         <div class="mb-3"
                              style="font-size:42px; font-weight:700; color:#0F6E56;">
@@ -192,7 +192,7 @@ include "includes/header.php";
                             RESEARCH
                         </h5>
 
-                        <p class="mb-0">
+                        <p class="mb-0 mb-2">
                             A 2023 meta-analysis found that workplace
                             coaching has positive effects on organisational
                             outcomes.
@@ -208,12 +208,12 @@ include "includes/header.php";
 
 </section>
 
-<section id="about-section" class="py-5 bg-light" aria-labelledby="hr-heading">
+<section id="about-section" class="py-3 bg-light" aria-labelledby="hr-heading">
 
     <div class="container">
 
         <!-- Heading -->
-        <div class="row justify-content-center text-center mb-5">
+        <div class="row justify-content-center text-center mb-3">
             <div class="col-12 col-md-10 col-lg-8">
 
                 <h2 class="text-black mb-3" id="hr-heading">
@@ -232,7 +232,7 @@ include "includes/header.php";
         <div class="row justify-content-center">
             <div class="col-12 col-lg-9">
 
-                <div class="bg-white shadow-sm p-4 p-md-5">
+                <div class="bg-white shadow-sm p-4 p-md-4">
 
                     <p class="lead mb-4">
                         Coaching can complement leadership development,
@@ -254,12 +254,10 @@ include "includes/header.php";
 
                     <!-- CTA -->
                     <div class="text-center border-top mt-4 pt-4">
-
-                        <p class="h4 fw-bold mb-0"
-                           style="color:#373A6D;">
+                        <a href="<?= BASE_URL ?>contact.php" class="btn btn-primary py-2 px-4 text-white">
                             Let's discuss what your people need.
-                        </p>
-
+                        </a>
+                       
                     </div>
 
                 </div>

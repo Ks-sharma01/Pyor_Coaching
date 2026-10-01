@@ -7,40 +7,28 @@ include "includes/header.php";
 
 <section class="site-blocks-cover overflow-hidden">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12 align-self-center">
+    <div class="row justify-content-center">
+          <div class="col-lg-11 mt-4">
 
-        <div class="row">
-          <div class="col-lg-11">
+        <!-- <div class="row"> -->
+          <!-- <div class="col-lg-11 "> -->
 
-            <h1>I am <span class="typed-words"></span></h1>
+            <h1 class="mt-4">I am <span class="typed-words"></span></h1>
             <p>Paint Your Own Rainbow</p>
-            <p class="text-white smoothscroll">We are committed to help you find control over your own learning process to recognize, prioritize and achieve your personal and professional goals.</p>
-          </div>
+            <p class="text-white">We are committed to help you find control over your own learning process to recognize, prioritize and achieve your personal and professional goals.</p>
+          <!-- </div> -->
 
-        </div>
+        <!-- </div> -->
       </div>
 
     </div>
   </div>
 </section>
 
-<!-- <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-12" style="margin-top: -20%;">
-            <div class="slide-one-item home-slider owl-carousel">
-              <img src="images/coach_hero_1.jpg" alt="Image" class="img-fluid img">
-              <img src="images/coach_hero_2.jpg" alt="Image" class="img-fluid img">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
 
 <section class="site-section coaching-benefits" id="about-section" aria-labelledby="benefits-heading">
   <div class="container">
-    <div class="row justify-content-center mb-5">
+    <div class="row justify-content-center mb-4">
       <div class="col-lg-9 text-center">
         <h2 class="text-black mb-0" id="benefits-heading">Hiring a coach brings many wonderful benefits, including</h2>
       </div>
@@ -137,25 +125,12 @@ include "includes/header.php";
     </div>
   </div>
 </section>
-
-
-<div style="padding: 10px 5px 5px 10px">
-  <div style="padding-top: 20px;padding-bottom: 20px;">
-    <h3 style="text-align: center;">
-      <span style="color: #373A6D;">“Everyone needs a coach. We all need people to give us feedback. That’s how we improve.”
-        <br>
-      </span>
-      <span style="color: #373A6D;">Bill Gates</span>
-    </h3>
-  </div>
-
-
 </div>
 
 
 <section class="site-section bg-light" id="training-section">
   <div class="container">
-    <div class="row mb-5 justify-content-center">
+    <div class="row mb-2 justify-content-center">
       <div class="col-md-7 text-center">
         <h2 class="approach-eyebrow">OUR OFFERINGS</h2>
       </div>
@@ -286,7 +261,7 @@ include "includes/header.php";
       <div class="service bg-white">
         <div class="icon"><span class="flaticon-elearning display-2 text-primary"></span></div>
         <h3 class="text-black mb-3">How To Handle High-Pressure Situations</h3>
-        <p>November 14, 2024</p>
+        <p>July 14, 2026</p>
         <p style="text-align: justify">High-pressure situations can be stressful but don't have to be overwhelming. With the right strategies, you can navigate these challenges with confidence and ease. Here are some tips to help you handle high-pressure situations...</p>
         <a class="btn btn-primary mt-1" href="<?= BASE_URL ?>handle_pressure.php">Read More</a>
 
@@ -295,7 +270,7 @@ include "includes/header.php";
       <div class="service bg-white">
         <div class="icon"><span class="flaticon-target display-2 text-primary"></span></div>
         <h3 class="text-black mb-3">Executive Coaching - Need of the Hour</h3>
-        <p>October 29, 2024</p>
+        <p>October 02, 2026</p>
         <p>Executives’ roles have become very demanding and require them to demonstrate sheer alacrity, dexterity and versatility in all facets of their responsibilities, be it people management, planning, strategy development...</p>
         <a class="btn btn-primary mt-1" href="<?= BASE_URL ?>need_hour.php">Read More</a>
 
@@ -304,7 +279,7 @@ include "includes/header.php";
       <div class="service  bg-white">
         <div class="icon"><span class="flaticon-group display-2 text-primary"></span></div>
         <h3 class="text-black mb-3">Work Life Balance</h3>
-        <p>September 30, 2024</p>
+        <p>June 30, 2026</p>
         <p style="text-align: justify">If you are worn out from work and don’t feel like pursuing your hobby, then you are severely deficient in Vitamin “ME”. You are experiencing the “Balance Syndrome” and the symptoms are very obvious – you are checking emails after work; taking calls beyond business hours...</p>
         <a class="btn btn-primary mt-1" href="<?= BASE_URL ?>work_life.php">Read More</a>
 
@@ -318,25 +293,25 @@ include "includes/header.php";
 
 
 
-<div class="site-section bg-light" id="contact-section">
-  <div class="container">
+<div class="site-section-contact bg-light" id="contact-section">
+  <div class="container p-4">
     <div class="row">
-      <div class="col-12 text-center mb-5">
+      <div class="col-12 text-center mb-2 mt-2">
         <h2 style="color:#373A6D" class="approach-eyebrow">REACH OUT</h2>
         <p>Contact us to schedule.</p>
       </div>
     </div>
     <div class="row mb-2">
-      <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">
+      <div class="mb-4 mb-lg-0 col-6 col-md-6 col-lg-4">
         <p class="mb-0 font-weight-bold text-primary">Address</p>
         <p class="mb-4">India | Singapore
       </div>
-      <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">
+      <div class="mb-4 mb-lg-0 col-6 col-md-6 col-lg-4">
         <p class="mb-0 font-weight-bold text-primary">Phone</p>
         <p class="mb-2">+65 82921920 (Singapore)</p>
         <p class="mb-4">+91 9871404023 (India)</p>
       </div>
-      <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">
+      <div class="mb-4 mb-lg-0 col-6 col-md-6 col-lg-4">
         <i class="bi bi-envelope"></i>
 
         <p class="mb-0 font-weight-bold text-primary">Email Address</p>

@@ -6,34 +6,31 @@ include "includes/header.php";
 ?>
 
 <section class="site-blocks-cover overflow-hidden">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 align-self-center">
+  <div class="container">
+    <div class="row justify-content-center">
+          <div class="col-lg-11 mt-4">
 
-                <div class="row">
-                    <div class="col-lg-11">
+        <!-- <div class="row"> -->
+          <!-- <div class="col-lg-11 "> -->
 
-                        <h1>How we can work together</h1>
-                        <p class="text-white smoothscroll">Rubaru® </br>
-                            Face to Face with Yourself
-                        </p>
-                        <!-- <p class="text-white smoothscroll">Sometimes they know exactly what the problem is. Sometimes they don't.</p> -->
-                        <!-- <p class="text-white smoothscroll">Either way, coaching gives us a place to slow down, look at what is really going on and think about what comes next.</p> -->
-                    </div>
+            <h1 class="mt-4">How we can work together</h1>
+            <p>Rubaru®</p>
+            <p class="text-white">Face to Face with Yourself</p>
+          <!-- </div> -->
 
-                </div>
-            </div>
+        <!-- </div> -->
+      </div>
 
-        </div>
     </div>
+  </div>
 </section>
 
-<section id="about-section" class="py-5 bg-light" aria-labelledby="approach-heading">
+<section id="about-section" class="py-3 bg-light" aria-labelledby="approach-heading">
 
     <div class="container">
 
         <!-- Heading -->
-        <div class="row justify-content-center text-center mb-5">
+        <div class="row justify-content-center text-center mb-3">
             <div class="col-lg-9">
 
 
@@ -50,7 +47,7 @@ include "includes/header.php";
 
 
         <!-- Introduction -->
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
 
                 <p class="lead">
@@ -76,12 +73,12 @@ include "includes/header.php";
 
 
         <!-- What May Be Beneath -->
-        <div class="row g-4 justify-content-center mb-5">
+        <div class="row justify-content-center mb-3">
 
             <div class="col-12 col-sm-6 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm text-center">
+                <div class="card h-100 border-1 text-center">
                     <div class="card-body p-4">
-                        <div class="mb-3"
+                        <div class="mb-1"
                             style="font-size:30px; color:#F2A03A;">
                             01
                         </div>
@@ -99,9 +96,9 @@ include "includes/header.php";
 
 
             <div class="col-12 col-sm-6 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm text-center">
+                <div class="card h-100 border-1 text-center">
                     <div class="card-body p-4">
-                        <div class="mb-3"
+                        <div class="mb-1"
                             style="font-size:30px; color:#F2A03A;">
                             02
                         </div>
@@ -119,9 +116,9 @@ include "includes/header.php";
 
 
             <div class="col-12 col-sm-6 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm text-center">
+                <div class="card h-100 border-1 text-center">
                     <div class="card-body p-4">
-                        <div class="mb-3"
+                        <div class="mb-1"
                             style="font-size:30px; color:#F2A03A;">
                             03
                         </div>
@@ -139,9 +136,9 @@ include "includes/header.php";
 
 
             <div class="col-12 col-sm-6 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm text-center">
+                <div class="card h-100 border-1 text-center">
                     <div class="card-body p-4">
-                        <div class="mb-3"
+                        <div class="mb-1"
                             style="font-size:30px; color:#F2A03A;">
                             04
                         </div>
@@ -162,12 +159,12 @@ include "includes/header.php";
 
 
         <!-- Rubaru -->
-        <div class="row justify-content-center mb-4">
+        <div class="row justify-content-center mb-2">
             <div class="col-lg-9">
 
-                <div class="bg-white p-4 p-md-5 text-center shadow-sm">
+                <div class="bg-white p-4 p-md-3 text-center shadow-sm">
 
-                    <p class="h4 mb-4" style="color:#373A6D;">
+                    <p class="h4 mb-2" style="color:#373A6D;">
                         Rubaru<sup>®</sup>
                     </p>
 
@@ -304,7 +301,7 @@ include "includes/header.php";
     </div>
 </div>
 
-<section id="about-section" class="py-5 bg-light" aria-labelledby="begin-heading">
+<section id="about-section" class="py-4 bg-light" aria-labelledby="begin-heading">
 
     <div class="container">
 
@@ -312,28 +309,24 @@ include "includes/header.php";
             <div class="col-12 col-md-10 col-lg-8">
 
                 <!-- Heading -->
-                <h2 class="text-black mb-3" id="begin-heading">
+                <h2 class="text-black mb-2" id="begin-heading">
                     Where do you want to begin?
                 </h2>
 
                 <!-- Decorative Line -->
-                <div class="mx-auto mb-4"
+                <div class="mx-auto mb-2"
                     style="width:60px; height:3px; background:#F2A03A;">
                 </div>
 
                 <!-- Content -->
-                <p class="lead mb-4">
+                <p class="lead mb-3">
                     You don't need a clear answer before you reach out.
                 </p>
 
                 <!-- Highlight -->
-                <div class="py-3 px-4 border-top border-bottom">
-                    <p class="h4 fw-bold mb-0"
-                        style="color:#373A6D;">
-                        Bring the question. We can start there.
-                    </p>
-                </div>
-
+                 <a href="<?= BASE_URL ?>contact.php" class="btn btn-primary py-2 px-4 text-white">
+                    Bring the question. We can start there.
+                </a>
             </div>
         </div>
 

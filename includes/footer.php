@@ -1,17 +1,17 @@
 <footer class="site-footer bg-primary">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-4">
+      <div class="col-6 col-md-4">
         <h2 class="footer-heading mb-4 ml-4">Proud Member Of</h2>
         <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem officiis dolorem assumenda alias mollitia reprehenderit dolor facilis.</p> -->
         <img src="<?= BASE_URL ?>images/icflogowhite.png" alt="Proud Member Of" class="img-fluid" />
       </div>
 
 
-      <div class="col-12 col-md-3 ml-auto">
+      <div class="d-none d-lg-block col-md-3 ml-auto">
         
         <ul class="site-menu main-menu mr-auto d-none d-lg-block">
-          <h2 class="footer-heading mb-4">Quick Links</h2>
+          <h2 class="footer-heading mb-2">Quick Links</h2>
                 <li style="list-style: none;"><a href="<?= BASE_URL ?>index.php" class="nav-link">Home</a></li>
                 <li style="list-style: none;"><a href="<?= BASE_URL ?>about.php" class="nav-link">About</a></li>
                 <li style="list-style: none;"><a href="<?= BASE_URL ?>coaching.php" class="nav-link">Coaching</a></li>
@@ -31,8 +31,8 @@
               </ul>
       </div>
 
-      <div class="col-12 col-md-4">
-        <div class="mb-5">
+      <div class="col-6 col-md-4">
+        <div class="mb-4">
           <h2 class="footer-heading mb-4 ml-4">Follow Us</h2>
           <a href="https://www.instagram.com/_pyorcoaching_/" class="pl-3 pr-3 ml-2"><span class="icon-instagram"></span></a>
           <a href="https://www.linkedin.com/in/jyotiis/" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
@@ -58,11 +58,11 @@
       </div>
     </div>
 
-    <div class="row pt-4 mt-4 text-left">
+    <div class="row text-left">
       <div class="col-md-12">
-        <div class="border-top pt-5">
+        <div class="border-top pt-2">
           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          <p>Copyright &copy; Jyoti Sapra 2023. All Rights Reserved.
+          <p>Copyright &copy; Jyoti Sapra 2026. All Rights Reserved.
           </p>
           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 

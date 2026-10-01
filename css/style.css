@@ -149,7 +149,7 @@ body:after {
 
 @media (min-width: 768px) {
   .site-section {
-    padding: 5em 0;
+    padding: 3em 0;
   }
 }
 
@@ -266,13 +266,13 @@ body:after {
 }
 
 .site-footer {
-  padding: 4em 0;
+  padding: 1em 0 0.5em;
   background: #333333;
 }
 
 @media (min-width: 768px) {
   .site-footer {
-    padding: 8em 0;
+    padding: 2em 0 0.5em;
   }
 }
 
@@ -300,7 +300,7 @@ body:after {
 }
 
 .site-footer ul li {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .site-footer .footer-heading {
@@ -959,8 +959,12 @@ body:after {
 
 .site-blocks-cover,
 .site-blocks-cover>.container>.row {
-  height: calc(80vh);
+  height: 65vh;
   min-height: 400px;
+}
+
+.site-blocks-cover>.container>.row {
+  align-items: center;
 }
 
 .site-blocks-cover.inner-page-cover,
@@ -985,7 +989,7 @@ body:after {
 @media (max-width: 991.98px) {
   .site-blocks-cover h1 {
     font-size: 2rem;
-    margin-top: 70px;
+    margin-top: 0;
   }
 }
 
@@ -1035,7 +1039,7 @@ body:after {
 
   .site-blocks-cover,
   .site-blocks-cover>.container>.row {
-    min-height: 420px;
+    min-height: 360px;
     height: auto;
   }
 
@@ -1062,7 +1066,7 @@ body:after {
   }
 
   .coaching-approach-content {
-    padding: 30px 18px;
+    padding: 20px 10px;
   }
 
   .approach-eyebrow {
@@ -1078,7 +1082,7 @@ body:after {
   }
 
   .site-footer {
-    padding: 3em 0;
+    padding: 3em 0 0.5em;
   }
 
   .site-footer .footer-heading,
@@ -1089,6 +1093,7 @@ body:after {
 
   .site-footer img {
     display: block;
+    width: 180px;
     max-width: 100%;
     height: auto;
   }

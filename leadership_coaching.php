@@ -6,24 +6,23 @@ include "includes/header.php";
 ?>
 
 <section class="site-blocks-cover overflow-hidden">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 align-self-center">
+  <div class="container">
+    <div class="row justify-content-center">
+          <div class="col-lg-11 mt-4">
 
-                <div class="row">
-                    <div class="col-lg-11">
+        <!-- <div class="row"> -->
+          <!-- <div class="col-lg-11 "> -->
 
-                        <h1>Leadership Coaching</h1>
-                        <p class="text-white smoothscroll">Become A Leader</p>
-                        <p class="text-white smoothscroll">Leaders are both born and made. Leadership coaching provides a powerful tool to accelerate the performance of successful executives and managers, and in turn, the corporation.</p>
-                        <!-- <p class="text-white smoothscroll">Either way, coaching gives us a place to slow down, look at what is really going on and think about what comes next.</p> -->
-                    </div>
+            <h1 class="mt-4">Leadership Coaching</h1>
+            <p>Become A Leader</p>
+            <p class="text-white">Leaders are both born and made. Leadership coaching provides a powerful tool to accelerate the performance of successful executives and managers, and in turn, the corporation.</p>
+          <!-- </div> -->
 
-                </div>
-            </div>
+        <!-- </div> -->
+      </div>
 
-        </div>
     </div>
+  </div>
 </section>
 
 <div style="padding: 10px 5px 5px 10px">

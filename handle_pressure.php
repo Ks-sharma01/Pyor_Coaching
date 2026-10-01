@@ -142,64 +142,33 @@ include "includes/header.php";
 
 </div>
 
-<div class="site-section bg-light" id="contact-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center mb-5">
-                <h2 style="color:#373A6D" class="approach-eyebrow">REACH OUT</h2>
-                <p>Contact us to schedule.</p>
-            </div>
-        </div>
-        <div class="row mb-2">
-            <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">
-                <p class="mb-0 font-weight-bold text-primary">Address</p>
-                <p class="mb-4">India | Singapore
-            </div>
-            <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">
-                <p class="mb-0 font-weight-bold text-primary">Phone</p>
-                <p class="mb-2">+65 82921920 (Singapore)</p>
-                <p class="mb-4">+91 9871404023 (India)</p>
-            </div>
-            <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">
-                <i class="bi bi-envelope"></i>
-
-                <p class="mb-0 font-weight-bold text-primary">Email Address</p>
-                <a href="mailto:jyoti@pyorcoaching.com">jyoti@pyorcoaching.com</a></span>
-            </div>
-        </div>
-        <!-- <div class="row">
-      <div class="col-lg-12 mb-5">
-        <form action="#" method="post">
-          <div class="form-group row">
-            <div class="col-md-6 mb-3 mb-md-0">
-              <input type="text" class="form-control" placeholder="First name">
-            </div>
-            <div class="col-md-6">
-              <input type="text" class="form-control" placeholder="First name">
-            </div>
-          </div>
-
-          <div class="form-group row">
-            <div class="col-md-12">
-              <input type="text" class="form-control" placeholder="Email address">
-            </div>
-          </div>
-
-          <div class="form-group row">
-            <div class="col-md-12">
-              <textarea name="" id="" class="form-control" placeholder="Write your message." cols="30" rows="10"></textarea>
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-md-6 mr-auto">
-              <input type="submit" class="btn btn-block btn-primary text-white py-2 px-5" value="Send Message">
-            </div>
-          </div>
-        </form>
+<div class="site-section-contact bg-light" id="contact-section">
+  <div class="container p-4">
+    <div class="row">
+      <div class="col-12 text-center mb-2 mt-2">
+        <h2 style="color:#373A6D" class="approach-eyebrow">REACH OUT</h2>
+        <p>Contact us to schedule.</p>
       </div>
-
-    </div> -->
     </div>
+    <div class="row mb-2">
+      <div class="mb-4 mb-lg-0 col-6 col-md-6 col-lg-4">
+        <p class="mb-0 font-weight-bold text-primary">Address</p>
+        <p class="mb-4">India | Singapore
+      </div>
+      <div class="mb-4 mb-lg-0 col-6 col-md-6 col-lg-4">
+        <p class="mb-0 font-weight-bold text-primary">Phone</p>
+        <p class="mb-2">+65 82921920 (Singapore)</p>
+        <p class="mb-4">+91 9871404023 (India)</p>
+      </div>
+      <div class="mb-4 mb-lg-0 col-6 col-md-6 col-lg-4">
+        <i class="bi bi-envelope"></i>
+
+        <p class="mb-0 font-weight-bold text-primary">Email Address</p>
+        <a href="mailto:jyoti@pyorcoaching.com">jyoti@pyorcoaching.com</a></span>
+      </div>
+    </div>
+    
+  </div>
 </div>
 
 <?php

@@ -16,9 +16,7 @@ jQuery(document).ready(function($) {
 		});
 
 
-		setTimeout(function() {
-			
-			var counter = 0;
+    var counter = 0;
       $('.site-mobile-menu .has-children').each(function(){
         var $this = $(this);
         
@@ -37,8 +35,6 @@ jQuery(document).ready(function($) {
         counter++;
 
       });
-
-    }, 1000);
 
 		$('body').on('click', '.arrow-collapse', function(e) {
       var $this = $(this);
@@ -323,3 +319,310 @@ jQuery(document).ready(function($) {
 	});
 
 });
+
+// const contact_submit = document.getElementById("contact_submit");
+// const contactForm = document.getElementById("ContactForm");
+// if(contactForm){
+// 	 document.getElementById("ContactForm")
+//         .addEventListener("submit", function (e) {
+
+//                 e.preventDefault();
+
+//             contact_submit.disabled = true;
+//             contact_submit.innerHTML = "Sending...";
+//         });
+// }
+
+
+const contactForms = document.getElementById("ContactForm");
+
+if (contactForms) {
+
+    const contact_name = document.getElementById("contact_name");
+
+    const contact_email = document.getElementById("contact_email");
+
+    const contact_subject = document.getElementById("contact_subject");
+
+    const contact_comment = document.getElementById("contact_comment");
+
+
+    const contact_name_err = document.getElementById("contact_name_err");
+
+    const contact_email_err = document.getElementById("contact_email_err");
+
+    const contact_subject_err = document.getElementById("contact_subject_err");
+
+    const contact_comment_err = document.getElementById("contact_comment_err");
+
+
+    // FULL NAME
+
+    function validateName() {
+
+        const value = contact_name.value.trim();
+
+        contact_name_err.textContent = "";
+
+        if (value === "") {
+
+            contact_name_err.textContent =
+                "Name is required.";
+
+            return false;
+        }
+
+        if (value.length < 2) {
+
+            contact_name_err.textContent =
+                "Please enter at least 2 characters.";
+
+            return false;
+        }
+
+        if (!/^[a-zA-Z\s.'-]+$/.test(value)) {
+
+            contact_name_err.textContent =
+                "Please enter a valid name.";
+
+            return false;
+        }
+
+        return true;
+    }
+
+
+    // EMAIL
+
+    function validateEmail() {
+
+        const value = contact_email.value.trim();
+
+        contact_email_err.textContent = "";
+
+        if (value === "") {
+
+            contact_email_err.textContent =
+                "Email is required.";
+
+            return false;
+        }
+
+        const emailPattern =
+            /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+
+        if (!emailPattern.test(value)) {
+
+            contact_email_err.textContent =
+                "Please enter a valid email address.";
+
+            return false;
+        }
+
+        return true;
+    }
+
+
+    // SUBJECT
+
+    function validateSubject() {
+
+        const value = contact_subject.value.trim();
+
+        contact_subject_err.textContent = "";
+
+        if (value === "") {
+
+            contact_subject_err.textContent =
+                "Please select subject.";
+
+            return false;
+        }
+
+
+        return true;
+    }
+
+    // MESSAGE
+
+    function validateMessage() {
+
+        const value = contact_comment.value.trim();
+
+        contact_comment_err.textContent = "";
+
+        if (value === "") {
+
+            contact_comment_err.textContent =
+                "Message is required.";
+
+            return false;
+        }
+
+        return true;
+    }
+
+    // VALIDATE WHILE USER TYPES
+
+    contact_name.addEventListener(
+        "input",
+        validateName
+    );
+
+    contact_email.addEventListener(
+        "input",
+        validateEmail
+    );
+
+    contact_subject.addEventListener(
+        "change",
+        validateSubject
+    );
+
+    contact_comment.addEventListener(
+        "input",
+        validateMessage
+    );
+
+
+    // FORM SUBMIT
+
+    contactForms.addEventListener(
+        "submit",
+        function (e) {
+            e.preventDefault();
+
+
+            const validName =
+              validateName();
+
+            const validEmail =
+                validateEmail();
+
+            const validSubject =
+                validateSubject();
+
+            const validMessage =
+                validateMessage();
+
+
+            // Stop if any field is invalid
+            if (
+                !validName ||
+                !validEmail ||
+                !validSubject ||
+                !validMessage
+            ) {
+
+                return;
+            }
+
+            // SEND FORM
+
+            const button =
+                document.getElementById("contact_submit");
+
+            const originalText =
+                button.innerHTML;
+
+
+            button.disabled = true;
+
+            button.innerHTML = `
+                Sending...
+                <span class="ms-2">⏳</span>
+            `;
+
+
+            const formData =
+                new FormData(contactForms);
+
+
+            fetch("submit-message.php", {
+
+                method: "POST",
+
+                body: formData
+
+            })
+
+            .then(response => response.json())
+
+                .then(data => {
+
+                if (data.success) {
+
+                    // Reset form
+                    contactForms.reset();
+
+                    // Show success toast
+                    showToast(
+                        "Success",
+                        "Message sent successfully."
+                    );
+
+                } else {
+
+                    showToast(
+                        "Error",
+                        data.message
+                    );
+
+                }
+
+            })
+
+            .catch(error => {
+
+                console.error(error);
+
+                showToast(
+                    "Error",
+                    "Unable to send your message. Please try again."
+                );
+
+            })
+
+            .finally(() => {
+
+                button.disabled = false;
+
+                button.innerHTML = originalText;
+
+            });
+
+        }
+    );
+
+}
+
+function showToast(title, message) {
+
+    const toastElement =
+        document.getElementById("formToast");
+
+    const toastTitle =
+        document.getElementById("toastTitle");
+
+    const toastMessage =
+        document.getElementById("toastMessage");
+
+
+    if (!toastElement) {
+        return;
+    }
+
+
+    toastTitle.textContent = title;
+
+    toastMessage.textContent = message;
+
+
+    $(toastElement)
+      .toast({ delay: 4000 })
+      .toast("show");
+}
+
+
+
+

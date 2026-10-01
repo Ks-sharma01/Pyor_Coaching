@@ -1,7 +1,7 @@
   <!doctype html>
 <html lang="en">
   <head>
-    <title>Coaching &mdash; Website Template by Colorlib</title>
+    <title>Pyor Coaching - Paint Your Own Rainbow</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -45,7 +45,7 @@
         <div class="row align-items-center">
           
           <div class="col-6 col-xl-2">
-            <img src="<?= BASE_URL ?>images/logo.png"/>
+            <img src="<?= BASE_URL ?>images/logo.png" height="50px"/>
             <!-- <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0">Coaching<span class="text-primary">.</span> </a></h1> -->
           </div>
 
@@ -53,17 +53,25 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="#home-section" class="nav-link">Home</a></li>
-                <li><a href="#about-section" class="nav-link">About</a></li>
-                <li><a href="#training-section" class="nav-link">Our Training</a></li>
-                <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
-                <li><a href="#services-section" class="nav-link">Services</a></li>
-                <li><a href="#blog-section" class="nav-link">Blog</a></li>
-                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                <li><a href="<?= BASE_URL ?>index.php" class="nav-link">Home</a></li>
+                <li><a href="<?= BASE_URL ?>about.php" class="nav-link">About</a></li>
+                <li><a href="<?= BASE_URL ?>coaching.php" class="nav-link">Coaching</a></li>
+                <li><a href="<?= BASE_URL ?>organizations.php" class="nav-link">Organizations</a></li>
+                <li><a href="<?= BASE_URL ?>book.php" class="nav-link">The Book</a></li>
+                <li class="has-children">
+                  <a href="<?= BASE_URL ?>services.php" class="nav-link">Services</a>
+                  <ul class="dropdown">
+                    <li><a href="<?= BASE_URL ?>executive_coaching.php">Executive Coaching</a></li>
+                    <li><a href="<?= BASE_URL ?>leadership_coaching.php">Leadership Coaching</a></li>
+                    <li><a href="<?= BASE_URL ?>life_coaching.php">Life Coaching</a></li>
+                    <li><a href="<?= BASE_URL ?>employee_assessment_program.php">Employee Assistance Program</a></li>
+                  </ul>
+                </li>
+                <li><a href="<?= BASE_URL ?>blogs.php" class="nav-link">Blogs</a></li>
+                <li><a href="<?= BASE_URL ?>contact.php" class="nav-link">Contact Us</a></li>
               </ul>
             </nav>
           </div>
-
 
           <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
 
@@ -71,10 +79,11 @@
       </div>
       
     </header>
-
+    
+    
     
   </div> <!-- .site-wrap -->
-
+  
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>
   <script src="js/popper.min.js"></script>
@@ -84,23 +93,26 @@
   <script src="js/jquery.easing.1.3.js"></script>
   <script src="js/aos.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/isotope.pkgd.min.js"></script>
-  
-  <script src="js/typed.js"></script>
-            <script>
-            var typed = new Typed('.typed-words', {
-            strings: [" Business Speakers", " Life Coach"],
-            typeSpeed: 80,
-            backSpeed: 80,
-            backDelay: 4000,
-            startDelay: 1000,
-            loop: true,
-            showCursor: true
-            });
-            </script>
-  
-  <script src="js/main.js"></script>
-
-    </body>
-</html>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    
+    <script src="js/typed.js"></script>
+    <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const el = document.querySelector('.typed-words');
+    if (el) {
+      new Typed('.typed-words', {
+        strings: ["Jyoti Sapra", "Leadership Coach"],
+        typeSpeed: 80,
+        backSpeed: 80,
+        backDelay: 2000,
+        startDelay: 1000,
+        loop: true,
+        showCursor: true
+      });
+    }
+  });
+</script>
+    
+  </body>
+    </html>

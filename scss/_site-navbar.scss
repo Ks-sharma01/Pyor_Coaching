@@ -1,12 +1,12 @@
 .site-navbar {
 
-	margin-bottom: 0px;
+	// margin-bottom: 0px;
 	z-index: 1999;
 	position: absolute;
 	top: 0;
 	width: 100%;
 	// background: $white;
-	border-bottom: rgba($white,.7);
+	border-bottom: 1px solid transparent;
 
 	.site-logo {
 		position: relative;
@@ -33,11 +33,12 @@
 			a {
 				text-decoration: none!important;
 				display: inline-block;
+				
 			}
 			> li {
 				display: inline-block;
 				> a {
-					padding: 30px 20px;
+					padding: 20px 20px;
 					color: rgba($white, .7)!important;
 					display: inline-block;
 					text-decoration: none!important;
@@ -47,6 +48,7 @@
 						
 					}
 				}
+				
 			}
 			.has-children {
 				position: relative;
@@ -357,9 +359,9 @@
 		// margin-top: 140px;
 		// margin-top: 96px;
 	}
-	.site-navbar {
-		transition: .3s all ease;
-	}
+	// .site-navbar {
+	// 	transition: .3s all ease;
+	// }
 	.site-navbar {
 		// border-bottom: 1px solid rgba($white, .2);
 		.site-menu-toggle {
@@ -399,7 +401,6 @@
 				> li {
 					> a {
 						color: $black!important;
-						padding: 20px 20px;
 						&:hover, &.active {
 							color: $primary!important;
 						}

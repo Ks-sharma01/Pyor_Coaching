@@ -131,6 +131,100 @@ body {
 	}
 }
 
+.coaching-benefits {
+	background: $white;
+}
+
+.benefit-item {
+	text-align: center;
+	height: 100%;
+	padding: 8px 12px 16px;
+
+	h3 {
+		max-width: 230px;
+		margin: 0 auto;
+		color: $black;
+		font-size: 1.05rem;
+	}
+}
+
+.benefit-chart {
+	position: relative;
+	display: grid;
+	place-items: center;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto 18px;
+	border-radius: 50%;
+	background: conic-gradient(#8bbfaf calc(var(--percent) * 1%), #edf1ef 0);
+
+	&:before {
+		position: absolute;
+		inset: 5px;
+		border-radius: 50%;
+		background: $white;
+		content: "";
+	}
+
+	span {
+		position: relative;
+		z-index: 1;
+		color: $black;
+		font-size: 26px;
+		line-height: 1;
+	}
+}
+
+.benefit-tagline {
+	max-width: 680px;
+	margin: 1.5rem auto 0;
+	text-align: center;
+}
+
+.coaching-approach {
+	background: #eaf0ee;
+}
+
+.coaching-approach-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	align-self: stretch;
+	min-height: 200px;
+	object-fit: cover;
+}
+
+.coaching-approach-content {
+	max-width: 760px;
+	padding: 64px clamp(24px, 6vw, 88px);
+
+	ul {
+		padding-left: 1.25rem;
+
+		li {
+			margin-bottom: .7rem;
+		}
+	}
+}
+
+.approach-eyebrow {
+	margin-bottom: .75rem;
+	color: #398874;
+	font-size: .8rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+@include media-breakpoint-down(md) {
+	.coaching-approach-image {
+		min-height: 0;
+	}
+
+	.coaching-approach-content {
+		padding: 42px 24px;
+	}
+}
+
 .site-section-heading {
 	padding-bottom: 20px;
 	margin-bottom: 0px;

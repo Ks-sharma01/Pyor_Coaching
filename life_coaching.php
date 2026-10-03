@@ -5,22 +5,14 @@ include "includes/header.php";
 
 ?>
 
-<section class="site-blocks-cover overflow-hidden">
+<section class="site-blocks-cover">
   <div class="container">
-    <div class="row justify-content-center">
-          <div class="col-lg-11 mt-4">
-
-        <!-- <div class="row"> -->
-          <!-- <div class="col-lg-11 "> -->
-
-            <h1 class="mt-4">Transforming Lives</h1>
+    <div class="row">
+          <div class="col-lg-12">
+            <h1>Transforming Lives</h1>
             <p>Be the person you want</p>
             <p class="text-white">Sit back and relax. This one is all about you – the ultimate thought stirring program that helps you shape your vision.</p>
-          <!-- </div> -->
-
-        <!-- </div> -->
       </div>
-
     </div>
   </div>
 </section>

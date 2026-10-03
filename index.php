@@ -5,26 +5,17 @@ include "includes/header.php";
 
 ?>
 
-<section class="site-blocks-cover overflow-hidden">
+<section class="site-blocks-cover">
   <div class="container">
-    <div class="row justify-content-center">
-          <div class="col-lg-11 mt-4">
-
-        <!-- <div class="row"> -->
-          <!-- <div class="col-lg-11 "> -->
-
-            <h1 class="mt-4">I am <span class="typed-words"></span></h1>
+    <div class="row">
+          <div class="col-lg-12">
+            <h1>I am <span class="typed-words"></span></h1>
             <p>Paint Your Own Rainbow</p>
             <p class="text-white">We are committed to help you find control over your own learning process to recognize, prioritize and achieve your personal and professional goals.</p>
-          <!-- </div> -->
-
-        <!-- </div> -->
       </div>
-
     </div>
   </div>
 </section>
-
 
 <section class="site-section coaching-benefits" id="about-section" aria-labelledby="benefits-heading">
   <div class="container">

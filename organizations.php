@@ -5,21 +5,19 @@ include "includes/header.php";
 
 ?>
 
-<section class="site-blocks-cover overflow-hidden">
+<section class="site-blocks-cover">
   <div class="container">
-    <div class="row justify-content-center">
-          <div class="col-lg-11 mt-4">
-            <h1 class="mt-4">One-to-one coaching</h1>
-            <p>When your people are at an important point of change.</p>
-      
+    <div class="row">
+          <div class="col-lg-12">
+            <h1>One-to-one Coaching</h1>
+            <p>When your people are at an important point of change.</p>    
       </div>
-
     </div>
   </div>
 </section>
 
-<div class="container-fluid bg-light mt-2 shadow-sm">
-    <div class="row g-0 align-items-stretch">
+<div class="container-fluid bg-light mt-1 shadow-sm">
+    <div class="row g-0">
 
         <!-- Left Image -->
         <div class="col-12 col-md-6">

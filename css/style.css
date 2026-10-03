@@ -305,7 +305,6 @@ body:after {
 
 .site-footer .footer-heading {
   font-size: 16px;
-  margin-left: 5px;
   color: #fff;
 }
 
@@ -503,7 +502,7 @@ body:after {
 .site-navbar {
   /* margin-bottom: 0px; */
   z-index: 1999;
-  position: absolute;
+  position: relative;
   top: 0;
   width: 100%;
   background: #fff;
@@ -693,6 +692,28 @@ body:after {
   transition: .3s all ease-in-out;
 }
 
+.contact-toast-container {
+  top: 6rem;
+  right: 1rem;
+  z-index: 2100;
+  pointer-events: none;
+}
+
+@media (max-width: 1199.98px) {
+  .contact-toast-container {
+    z-index: 1998;
+  }
+}
+
+.contact-toast-container .toast {
+  pointer-events: none;
+}
+
+.contact-toast-container .toast.show,
+.contact-toast-container .toast.showing {
+  pointer-events: auto;
+}
+
 .offcanvas-menu .site-mobile-menu {
   -webkit-transform: translateX(0%);
   -ms-transform: translateX(0%);
@@ -775,7 +796,7 @@ body:after {
 }
 
 .site-mobile-menu .site-nav-wrap li .active {
-  color: #373a6d;
+  color: #f2a03a !important;
 }
 
 .site-mobile-menu .site-nav-wrap .arrow-collapse {
@@ -873,7 +894,7 @@ body:after {
 }
 
 .sticky-wrapper {
-  position: absolute;
+  position: relative;
   z-index: 1999;
   width: 100%;
 }
@@ -925,6 +946,12 @@ body:after {
   color: #373a6d !important;
 }
 
+.site-navbar .site-navigation .site-menu>li>a.active,
+.sticky-wrapper .site-navbar .site-menu>li>a.active,
+.sticky-wrapper.is-sticky .site-navbar .site-menu>li>a.active {
+  color: #f2a03a !important;
+}
+
 .sticky-wrapper .shrink {
   padding-top: 0px !important;
   padding-bottom: 0px !important;
@@ -959,8 +986,8 @@ body:after {
 
 .site-blocks-cover,
 .site-blocks-cover>.container>.row {
-  height: 65vh;
-  min-height: 400px;
+  height: 40vh;
+  min-height: 300px;
 }
 
 .site-blocks-cover>.container>.row {
@@ -1015,6 +1042,9 @@ body:after {
   background-color: transparent !important;
   border-color: rgba(255, 255, 255, 0.5);
 }
+.center-footer{
+  text-align: center;
+}
 
 .site-blocks-cover .btn:hover,
 .site-blocks-cover .btn:active,
@@ -1026,6 +1056,9 @@ body:after {
 @media (max-width: 575.98px) {
   .site-navbar {
     padding: 8px 0;
+  }
+  .center-footer{
+    text-align: left;
   }
 
   .site-navbar .container {
@@ -1039,7 +1072,7 @@ body:after {
 
   .site-blocks-cover,
   .site-blocks-cover>.container>.row {
-    min-height: 360px;
+    min-height: 300px;
     height: auto;
   }
 

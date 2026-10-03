@@ -6,22 +6,14 @@ include "includes/header.php";
 ?>
 
 
-<section class="site-blocks-cover overflow-hidden">
+<section class="site-blocks-cover">
   <div class="container">
-    <div class="row justify-content-center">
-          <div class="col-lg-11 mt-4">
-
-        <!-- <div class="row"> -->
-          <!-- <div class="col-lg-11 "> -->
-
-            <h1 class="mt-4">Employee Assistance Program</h1>
+    <div class="row">
+          <div class="col-lg-12">
+            <h1>Employee Assistance Program</h1>
             <p>Unleash the potential in you</p>
             <p class="text-white">Let your employees reinvigorate their personalities with this dynamic program, and watch your workplace almost magically transform.</p>
-          <!-- </div> -->
-
-        <!-- </div> -->
       </div>
-
     </div>
   </div>
 </section>

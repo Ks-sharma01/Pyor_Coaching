@@ -5,22 +5,14 @@ include "includes/header.php";
 
 ?>
 
-<section class="site-blocks-cover overflow-hidden">
+<section class="site-blocks-cover">
   <div class="container">
-    <div class="row justify-content-center">
-          <div class="col-lg-11 mt-4">
-
-        <!-- <div class="row"> -->
-          <!-- <div class="col-lg-11 "> -->
-
-            <h1 class="mt-4">Plotting your path to success</h1>
+    <div class="row">
+          <div class="col-lg-12">
+            <h1>Plotting your path to success</h1>
             <p>Get the results you want</p>
             <p class="text-white">Find your inner potential and growth - avail our services</p>
-          <!-- </div> -->
-
-        <!-- </div> -->
       </div>
-
     </div>
   </div>
 </section>

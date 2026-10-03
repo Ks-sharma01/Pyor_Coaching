@@ -5,16 +5,13 @@ include "includes/header.php";
 
 ?>
 
-<section class="site-blocks-cover overflow-hidden">
+<section class="site-blocks-cover">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-11 mt-4">
-
-        <h1 class="mt-4">Jyoti Sapra</h1>
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>Jyoti Sapra</h1>
         <p>Founder & Leadership Coach, PYOR Management Consulting Pte. Ltd.</p>
-
       </div>
-
     </div>
   </div>
 </section>

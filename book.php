@@ -5,11 +5,11 @@ include "includes/header.php";
 
 ?>
 
-<section class="site-blocks-cover overflow-hidden">
+<section class="site-blocks-cover">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-11 mt-4">
-                <h1 class="mt-4">Paint Your Own Rainbow</h1>
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Paint Your Own Rainbow</h1>
                 <p>35 stories. Seven colours. Many moments that may feel familiar.</p>
 
                 <a class="btn btn-primary mt-2 mr-2" href="https://www.amazon.in/Paint-Your-RAINBOW-Jyoti-Sapra-ebook/dp/B0HJNVXNX7" target="_blank"
@@ -182,54 +182,14 @@ include "includes/header.php";
 
 <div class="be-row be-wrap clearfix">
     <div class="one-col column-block clearfix no-background">
-        <div class="be-custom-column-pad" style="padding-top:20px;padding-bottom:10px;">
+        <div class="be-custom-column-pad" style="padding-top:10px;padding-bottom:10px;">
 
             <h3 style="text-align:center;">
                 <span style="color:#373A6D;">Seven colours. Seven themes. 35 stories.</span>
             </h3>
-
-            <!-- <p style="text-align:center;">
-                                These are the seven sections used throughout the book.
-                            </p> -->
-            <div class="rainbow-boxes">
-
-                <div class="rainbow-box red">
-                    <strong>RED</strong>
-                    <span>Courage and Strength</span>
-                </div>
-
-                <div class="rainbow-box orange">
-                    <strong>ORANGE</strong>
-                    <span>Joy and Creativity</span>
-                </div>
-
-                <div class="rainbow-box yellow">
-                    <strong>YELLOW</strong>
-                    <span>Hope and Optimism</span>
-                </div>
-
-                <div class="rainbow-box green">
-                    <strong>GREEN</strong>
-                    <span>Growth and Renewal</span>
-                </div>
-
-                <div class="rainbow-box blue">
-                    <strong>BLUE</strong>
-                    <span>Trust and Authentic Communication</span>
-                </div>
-
-                <div class="rainbow-box indigo">
-                    <strong>INDIGO</strong>
-                    <span>Wisdom and Self-Awareness</span>
-                </div>
-
-                <div class="rainbow-box violet">
-                    <strong>VIOLET</strong>
-                    <span>Purpose, Transformation and Legacy</span>
-                </div>
-
+            <div class="text-center">
+                <img src="images/seven_color.png" height="300px"/>
             </div>
-
         </div>
         <p style="text-align:center;">
             Five stories sit within each colour, bringing together 35 different moments, choices and emotions.

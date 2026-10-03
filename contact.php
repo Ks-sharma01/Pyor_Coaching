@@ -5,22 +5,14 @@ include "includes/header.php";
 
 ?>
 <!-- Contact Hero -->
-<section class="site-blocks-cover overflow-hidden">
+<section class="site-blocks-cover">
   <div class="container">
-    <div class="row justify-content-center">
-          <div class="col-lg-11 mt-4">
-
-        <!-- <div class="row"> -->
-          <!-- <div class="col-lg-11 "> -->
-
-            <h1 class="mt-4">Let's talk.</h1>
+    <div class="row">
+          <div class="col-lg-12">
+            <h1>Let's talk.</h1>
             <p>You may know exactly what you want to work on. Or you may simply know that something needs attention. Either is fine.</p>
             <p class="text-white">Send me a note and tell me a little about what is on your mind.</p>
-          <!-- </div> -->
-
-        <!-- </div> -->
       </div>
-
     </div>
   </div>
 </section>
@@ -298,7 +290,7 @@ include "includes/header.php";
 </div>
 
 
-<div class="position-fixed" style="top: 1rem; right: 1rem; z-index: 2100;">
+<div class="position-fixed contact-toast-container">
     <div class="toast" id="formToast" role="alert" aria-live="assertive" aria-atomic="true" data-delay="4000">
         <div class="toast-header">
             <strong class="mr-auto" id="toastTitle"></strong>

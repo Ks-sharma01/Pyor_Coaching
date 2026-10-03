@@ -1,3 +1,13 @@
+  <?php
+  $currentPage = basename($_SERVER['SCRIPT_NAME'] ?? '');
+  $servicePages = [
+    'services.php',
+    'executive_coaching.php',
+    'leadership_coaching.php',
+    'life_coaching.php',
+    'employee_assessment_program.php',
+  ];
+  ?>
   <!doctype html>
 <html lang="en">
   <head>
@@ -54,22 +64,22 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="<?= BASE_URL ?>index.php" class="nav-link">Home</a></li>
-                <li><a href="<?= BASE_URL ?>about.php" class="nav-link">About</a></li>
-                <li><a href="<?= BASE_URL ?>coaching.php" class="nav-link">Coaching</a></li>
-                <li><a href="<?= BASE_URL ?>organizations.php" class="nav-link">Organizations</a></li>
-                <li><a href="<?= BASE_URL ?>book.php" class="nav-link">The Book</a></li>
+                <li><a href="<?= BASE_URL ?>index.php" class="nav-link<?= $currentPage === 'index.php' ? ' active' : '' ?>">Home</a></li>
+                <li><a href="<?= BASE_URL ?>about.php" class="nav-link<?= $currentPage === 'about.php' ? ' active' : '' ?>">About</a></li>
+                <li><a href="<?= BASE_URL ?>coaching.php" class="nav-link<?= $currentPage === 'coaching.php' ? ' active' : '' ?>">Coaching</a></li>
+                <li><a href="<?= BASE_URL ?>organizations.php" class="nav-link<?= $currentPage === 'organizations.php' ? ' active' : '' ?>">Organizations</a></li>
+                <li><a href="<?= BASE_URL ?>book.php" class="nav-link<?= $currentPage === 'book.php' ? ' active' : '' ?>">The Book</a></li>
                 <li class="has-children">
-                  <a href="<?= BASE_URL ?>services.php" class="nav-link">Services</a>
+                  <a href="<?= BASE_URL ?>services.php" class="nav-link<?= in_array($currentPage, $servicePages, true) ? ' active' : '' ?>">Services</a>
                   <ul class="dropdown">
-                    <li><a href="<?= BASE_URL ?>executive_coaching.php">Executive Coaching</a></li>
-                    <li><a href="<?= BASE_URL ?>leadership_coaching.php">Leadership Coaching</a></li>
-                    <li><a href="<?= BASE_URL ?>life_coaching.php">Life Coaching</a></li>
-                    <li><a href="<?= BASE_URL ?>employee_assessment_program.php">Employee Assistance Program</a></li>
+                    <li><a class="<?= $currentPage === 'executive_coaching.php' ? 'active' : '' ?>" href="<?= BASE_URL ?>executive_coaching.php">Executive Coaching</a></li>
+                    <li><a class="<?= $currentPage === 'leadership_coaching.php' ? 'active' : '' ?>" href="<?= BASE_URL ?>leadership_coaching.php">Leadership Coaching</a></li>
+                    <li><a class="<?= $currentPage === 'life_coaching.php' ? 'active' : '' ?>" href="<?= BASE_URL ?>life_coaching.php">Life Coaching</a></li>
+                    <li><a class="<?= $currentPage === 'employee_assessment_program.php' ? 'active' : '' ?>" href="<?= BASE_URL ?>employee_assessment_program.php">Employee Assistance Program</a></li>
                   </ul>
                 </li>
-                <li><a href="<?= BASE_URL ?>blogs.php" class="nav-link">Blogs</a></li>
-                <li><a href="<?= BASE_URL ?>contact.php" class="nav-link">Contact Us</a></li>
+                <li><a href="<?= BASE_URL ?>blogs.php" class="nav-link<?= $currentPage === 'blogs.php' ? ' active' : '' ?>">Blogs</a></li>
+                <li><a href="<?= BASE_URL ?>contact.php" class="nav-link<?= $currentPage === 'contact.php' ? ' active' : '' ?>">Contact Us</a></li>
               </ul>
             </nav>
           </div>

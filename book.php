@@ -188,7 +188,9 @@ include "includes/header.php";
                 <span style="color:#373A6D;">Seven colours. Seven themes. 35 stories.</span>
             </h3>
             <div class="text-center">
-                <img src="images/seven_color.png" height="300px"/>
+                <img src="<?php BASE_URL; ?>images/seven_color.png"
+                    class="img-fluid seven-color-img"
+                    alt="Seven Colors">
             </div>
         </div>
         <p style="text-align:center;">

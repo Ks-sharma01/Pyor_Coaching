@@ -3170,3 +3170,14 @@ body {
 
   }
 }
+.seven-color-img {
+    max-height: 300px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+@media (max-width: 576px) {
+    .seven-color-img {
+        max-height: 200px;
+    }
+}

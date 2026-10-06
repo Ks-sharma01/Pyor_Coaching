@@ -100,7 +100,7 @@
                         Address
                     </p>
                     <p class="mb-0">
-                        India | Singapore
+                        Singapore | India
                     </p>
                 </div>
 

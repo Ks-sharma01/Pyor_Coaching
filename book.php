@@ -50,7 +50,7 @@ include "includes/header.php";
         <div class="row justify-content-center text-center">
             <div class="col-lg-8">
 
-                <p class="lead">
+                <p>
                     I didn't write this book to tell you how to live your life.
                 </p>
 
@@ -76,7 +76,7 @@ include "includes/header.php";
                     <div class="card-body p-4 d-flex">
                         <span class="fw-bold mr-3"
                             style="color:#F2A03A;">
-                            01.
+                            <img src="images/book1.png" height="20px"/>
                         </span>
 
                         <p class="mb-0">
@@ -90,9 +90,9 @@ include "includes/header.php";
             <div class="col-12 col-md-6">
                 <div class="card h-100 border-1">
                     <div class="card-body p-4 d-flex">
-                        <span class="fw-bold mr-2"
+                        <span class="fw-bold mr-3"
                             style="color:#F2A03A;">
-                            02.
+                            <img src="images/book1.png" height="20px"/>
                         </span>
 
                         <p class="mb-0">
@@ -107,9 +107,9 @@ include "includes/header.php";
             <div class="col-12 col-md-6">
                 <div class="card h-100 border-1">
                     <div class="card-body p-4 d-flex">
-                        <span class="fw-bold mr-2"
+                        <span class="fw-bold mr-3"
                             style="color:#F2A03A;">
-                            03.
+                            <img src="images/book1.png" height="20px"/>
                         </span>
 
                         <p class="mb-0">
@@ -123,9 +123,9 @@ include "includes/header.php";
             <div class="col-12 col-md-6">
                 <div class="card h-100 border-1">
                     <div class="card-body p-4 d-flex">
-                        <span class="fw-bold mr-2"
+                        <span class="fw-bold mr-3"
                             style="color:#F2A03A;">
-                            04.
+                            <img src="images/book1.png" height="20px"/>
                         </span>
 
                         <p class="mb-0">
@@ -140,9 +140,9 @@ include "includes/header.php";
             <div class="col-12">
                 <div class="card border-1">
                     <div class="card-body p-4 d-flex justify-content-center">
-                        <span class="fw-bold mr-2"
+                        <span class="fw-bold mr-3"
                             style="color:#F2A03A;">
-                            05.
+                           <img src="images/book1.png" height="20px"/>
                         </span>
 
                         <p class="mb-0">
@@ -160,7 +160,7 @@ include "includes/header.php";
         <div class="row justify-content-center text-center">
             <div class="col-lg-8">
 
-                <p class="lead">
+                <p>
                     And the moment when someone finally realises that
                     <strong style="color:#373A6D;">
                         waiting is also a choice.
@@ -228,28 +228,30 @@ include "includes/header.php";
                 <div class="p-4 p-sm-5 h-100 d-flex flex-column justify-content-center">
 
                     <!-- Heading -->
-                    <h4 class="mb-3">
-                        <span style="color:#373A6D;" class="approach-eyebrow">
-                            And then comes the pause
+                    <!-- <h4 class="mb-3"> -->
+                        <span style="color:#373A6D; margin-bottom: .50rem;     
+                        font-size: 1.8rem;
+                        font-weight: 700;">
+                            And Then Comes The Pause
                         </span>
-                    </h4>
+                    <!-- </h4> -->
 
                     <!-- Decorative Line -->
-                    <div class="mb-4"
+                    <!-- <div class="mb-4"
                         style="width:60px; height:3px; background:#F2A03A;">
-                    </div>
+                    </div> -->
 
                     <!-- Content -->
-                    <p class="mb-3">
+                    <p class="mb-2">
                         Each story ends with a <strong>PYOR Insight</strong>
                         and a question.
                     </p>
 
-                    <p class="mb-3">
+                    <p class="mb-2">
                         Not a lesson. Not a test. Just something to sit with.
                     </p>
 
-                    <p class="mb-3">
+                    <p class="mb-2">
                         You may agree with it. You may not. You may answer
                         the question immediately, come back to it later, or
                         simply let it stay with you.
@@ -329,7 +331,7 @@ include "includes/header.php";
             <div class="col-12 col-md-10 col-lg-8">
 
                 <!-- Main Message -->
-                <p class="lead mb-2" style="line-height:1.8;">
+                <p class="mb-2" style="line-height:1.8;">
                     <em>
                         Paint Your Own Rainbow is about the things we feel,
                         the choices we make, the questions we avoid and the
@@ -338,11 +340,11 @@ include "includes/header.php";
                 </p>
 
                 <!-- Closing Thought -->
-                <h4 class="fw-bold mb-2" style="color:#373A6D;">
+                <p class="mb-2" style="color:#373A6D;">
                     <em>
                         Perhaps one of these stories is waiting to become yours.
                     </em>
-                </h4>
+                </p>
 
                 <!-- Decorative Line -->
                 <div class="mx-auto mb-4"

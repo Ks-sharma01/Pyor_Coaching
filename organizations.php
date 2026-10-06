@@ -39,28 +39,28 @@ include "includes/header.php";
                 </h4>
 
                 <div>
-                    <h5 style="color:#c7b272;">LEADERSHIP</h5>
+                    <h5 style="color:#c7b272;">Leadership</h5>
                     <p>
                         New roles · Managing people · Difficult conversations · Leadership under pressure
                     </p>
                 </div>
 
                 <div>
-                    <h5 style="color:#c7b272;">CAREER & LIFE TRANSITIONS</h5>
+                    <h5 style="color:#c7b272;">Career & Life Transitions</h5>
                     <p>
                         Career crossroads · Role transitions · Relocation · Cross-cultural moves · What next?
                     </p>
                 </div>
 
                 <div>
-                    <h5 style="color:#c7b272;">RETURN TO WORK</h5>
+                    <h5 style="color:#c7b272;">Return To Work</h5>
                     <p>
                         Career breaks · Confidence · Professional identity · Readiness to return
                     </p>
                 </div>
 
                 <div>
-                    <h5 style="color:#c7b272;">EMPLOYEE SUPPORT</h5>
+                    <h5 style="color:#c7b272;">Employee Support</h5>
                     <p>
                         Workplace pressure · Relationships · Self-management · Personal transitions
                     </p>
@@ -148,7 +148,7 @@ include "includes/header.php";
                 <div class="card h-100 border-0 shadow-sm text-center">
                     <div class="card-body p-4 p-md-3">
 
-                        <div class="mb-3"
+                        <div
                              style="font-size:42px; font-weight:700; color:#0F6E56;">
                             70%
                         </div>
@@ -173,7 +173,7 @@ include "includes/header.php";
                 <div class="card h-100 border-0 shadow-sm text-center">
                     <div class="card-body p-4 p-md-3">
 
-                        <div class="mb-3"
+                        <div
                              style="font-size:42px; font-weight:700; color:#0F6E56;">
                             2023
                         </div>
@@ -208,7 +208,7 @@ include "includes/header.php";
             <div class="col-12 col-md-10 col-lg-8">
 
                 <h2 class="text-black mb-3" id="hr-heading">
-                    For HR & organisational leaders
+                    For HR & Organisational leaders
                 </h2>
 
                 <div class="mx-auto"
@@ -225,19 +225,19 @@ include "includes/header.php";
 
                 <div class="bg-white shadow-sm p-4 p-md-4">
 
-                    <p class="lead mb-4">
+                    <p class="mb-2">
                         Coaching can complement leadership development,
-                        talent programmes and existing EAP arrangements.
+                        talent programmes and existing Employee Assistance Program(EAP) arrangements.
                     </p>
 
-                    <p style="text-align: justify;">
+                    <p>
                         For employees moving across countries and cultures,
                         the transition can involve much more than relocation.
                         It can affect confidence, identity, relationships and
                         how they see their place in the workplace.
                     </p>
 
-                    <p style="text-align: justify;">
+                    <p>
                         That's the kind of transition I understand personally,
                         and it's part of what I bring to this work — alongside
                         experience across leadership, management and coaching.

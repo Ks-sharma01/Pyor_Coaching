@@ -79,7 +79,7 @@ include "includes/header.php";
                         <div>
                             <h5 style="color:#373A6D;">Location</h5>
                             <p class="mb-0">
-                                India | Singapore
+                                Singapore | India
                             </p>
                         </div>
 
@@ -138,14 +138,6 @@ include "includes/header.php";
                         </div>
                         
                     </div>
-
-                    
-                    <a href="https://www.amazon.in/Paint-Your-RAINBOW-Jyoti-Sapra-ebook/dp/B0HJNVXNX7" target="_blank"
-                        rel="noopener noreferrer"
-                        class="btn btn-primary text-white mt-3 ml-3 py-2 px-4"                  
-                        >
-                        Buy the Book
-                    </a>
                 </div>
                 
             </div>

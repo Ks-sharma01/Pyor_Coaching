@@ -180,10 +180,10 @@ include "includes/header.php";
         <div class="row justify-content-center text-center">
             <div class="col-lg-8">
 
-                <p class="lead mb-0">
-                    And sometimes, <strong style="color:#373A6D;">
-                        seeing something clearly
-                    </strong> is enough to open up
+                <p class="mb-0">
+                    And sometimes, 
+                    seeing something clearly
+                    is enough to open up
                     a different way forward.
                 </p>
 
@@ -271,7 +271,7 @@ include "includes/header.php";
                     And then comes the question:
                 </p>
 
-                <p style="text-align: justify; font-size: large; font-weight: bold">
+                <p style="text-align: justify;">
                     Who am I now, and what do I want next?
                 </p>
 
@@ -311,7 +311,7 @@ include "includes/header.php";
                 </div>
 
                 <!-- Content -->
-                <p class="lead mb-3">
+                <p class="mb-3">
                     You don't need a clear answer before you reach out.
                 </p>
 

@@ -295,7 +295,7 @@ include "includes/header.php";
     <div class="row mb-2">
       <div class="mb-4 mb-lg-0 col-6 col-md-6 col-lg-4">
         <p class="mb-0 font-weight-bold text-primary">Address</p>
-        <p class="mb-4">India | Singapore
+        <p class="mb-4">Singapore | India
       </div>
       <div class="mb-4 mb-lg-0 col-6 col-md-6 col-lg-4">
         <p class="mb-0 font-weight-bold text-primary">Phone</p>

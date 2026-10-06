@@ -85,12 +85,11 @@ include "includes/header.php";
 
         <div class="border-top pt-3">
 
-          <p class="lead mb-0">
-            That is often where coaching becomes useful.
-            <strong style="color:#373A6D;">
+          <p class="mb-0">
+            That is often where coaching becomes useful.    
               The issue we bring into the conversation is not
               always the real issue.
-            </strong>
+            
           </p>
 
         </div>
@@ -250,12 +249,6 @@ include "includes/header.php";
           I also contribute to community and pro bono coaching initiatives through APAC.
         </p>
 
-        <a href="https://www.amazon.in/Paint-Your-RAINBOW-Jyoti-Sapra-ebook/dp/B0HJNVXNX7" target="_blank"
-          rel="noopener noreferrer"
-          class="btn btn-primary text-whiteml-3 py-2 px-4">
-          Buy the Book
-        </a>
-
       </div>
     </div>
 
@@ -290,7 +283,7 @@ include "includes/header.php";
 
         <div class="p-4 p-md-3">
 
-          <p class="lead mb-4">
+          <p class="mb-4">
             You don't need to have everything figured out
             before you reach out.
           </p>
@@ -331,7 +324,7 @@ include "includes/header.php";
     <div class="row mb-2">
       <div class="mb-4 mb-lg-0 col-6 col-md-6 col-lg-4">
         <p class="mb-0 font-weight-bold text-primary">Address</p>
-        <p class="mb-4">India | Singapore
+        <p class="mb-4">Singapore | India </p>
       </div>
       <div class="mb-4 mb-lg-0 col-6 col-md-6 col-lg-4">
         <p class="mb-0 font-weight-bold text-primary">Phone</p>

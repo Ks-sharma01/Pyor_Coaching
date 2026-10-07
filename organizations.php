@@ -208,7 +208,7 @@ include "includes/header.php";
             <div class="col-12 col-md-10 col-lg-8">
 
                 <h2 class="text-black mb-3" id="hr-heading">
-                    For HR & Organisational leaders
+                    For HR & Organisational Leaders
                 </h2>
 
                 <div class="mx-auto"
@@ -227,7 +227,7 @@ include "includes/header.php";
 
                     <p class="mb-2">
                         Coaching can complement leadership development,
-                        talent programmes and existing Employee Assistance Program(EAP) arrangements.
+                        talent programmes and existing Employee Assistance Program (EAP) arrangements.
                     </p>
 
                     <p>
@@ -239,7 +239,7 @@ include "includes/header.php";
 
                     <p>
                         That's the kind of transition I understand personally,
-                        and it's part of what I bring to this work — alongside
+                        and it's part of what I bring to this work - alongside
                         experience across leadership, management and coaching.
                     </p>
 

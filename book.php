@@ -12,14 +12,49 @@ include "includes/header.php";
                 <h1>Paint Your Own Rainbow</h1>
                 <p>35 stories. Seven colours. Many moments that may feel familiar.</p>
 
-                <a class="btn btn-primary mt-2 mr-2" href="https://www.amazon.in/Paint-Your-RAINBOW-Jyoti-Sapra-ebook/dp/B0HJNVXNX7" target="_blank"
-                    rel="noopener noreferrer">
-                    BUY THE BOOK
-                </a>
-                <a class="btn btn-primary mt-2" href="https://www.amazon.in/kindle-dbs/hz/subscribe/ku?ref=dbs_p_ebk_r00_pbcb_diupu0&passThroughAsin=B0HJNVXNX7" target="_blank"
-                    rel="noopener noreferrer">
-                    READ AN EXCERPT
-                </a>
+                <div class="d-flex flex-column flex-sm-row justify-content-center gap-2 mb-1">
+
+                    <!-- Buy the Book Dropdown -->
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle px-3 py-2"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            BUY THE BOOK
+                        </button>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item"
+                                    href="https://www.amazon.in/Paint-Your-RAINBOW-Jyoti-Sapra-ebook/dp/B0HJNVXNX7"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    Buy in India
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item"
+                                   
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    Buy Internationally
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Read Excerpt -->
+                    <div class="flex-fill">
+                        <a href="https://www.amazon.in/kindle-dbs/hz/subscribe/ku?ref=dbs_p_ebk_r00_pbcb_diupu0&passThroughAsin=B0HJNVXNX7"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-primary px-3 py-2">
+                            READ AND EXCERPT
+                        </a>
+                    </div>
+
+                </div>
             </div>
 
         </div>
@@ -109,7 +144,7 @@ include "includes/header.php";
                     <div class="card-body p-4 d-flex">
                         <span class="fw-bold mr-3"
                             style="color:#F2A03A;">
-                            <img src="images/book1.png" height="20px"/>
+                            <img src="images/book1.png" height="20px" />
                         </span>
 
                         <p class="mb-0">
@@ -125,7 +160,7 @@ include "includes/header.php";
                     <div class="card-body p-4 d-flex">
                         <span class="fw-bold mr-3"
                             style="color:#F2A03A;">
-                            <img src="images/book1.png" height="20px"/>
+                            <img src="images/book1.png" height="20px" />
                         </span>
 
                         <p class="mb-0">
@@ -142,7 +177,7 @@ include "includes/header.php";
                     <div class="card-body p-4 d-flex justify-content-center">
                         <span class="fw-bold mr-3"
                             style="color:#F2A03A;">
-                           <img src="images/book1.png" height="20px"/>
+                            <img src="images/book1.png" height="20px" />
                         </span>
 
                         <p class="mb-0">
@@ -162,9 +197,7 @@ include "includes/header.php";
 
                 <p>
                     And the moment when someone finally realises that
-                    <strong style="color:#373A6D;">
-                        waiting is also a choice.
-                    </strong>
+                    waiting is also a choice.
                 </p>
 
                 <p>
@@ -187,11 +220,56 @@ include "includes/header.php";
             <h3 style="text-align:center;">
                 <span style="color:#373A6D;">Seven colours. Seven themes. 35 stories.</span>
             </h3>
-            <div class="text-center">
-                <img src="<?php BASE_URL; ?>images/seven_color.png"
-                    class="img-fluid seven-color-img"
-                    alt="Seven Colors">
-            </div>
+            <section class="rainbow-themes py-2">
+                <div class="container">
+
+                    <div class="rainbow-grid">
+
+                        <!-- RED -->
+                        <div class="rainbow-box red-box">
+                            <h3>RED</h3>
+                            <p>Courage and Strength</p>
+                        </div>
+
+                        <!-- ORANGE -->
+                        <div class="rainbow-box orange-box">
+                            <h3>ORANGE</h3>
+                            <p>Joy and Creativity</p>
+                        </div>
+
+                        <!-- YELLOW -->
+                        <div class="rainbow-box yellow-box">
+                            <h3>YELLOW</h3>
+                            <p>Hope and Optimism</p>
+                        </div>
+
+                        <!-- GREEN -->
+                        <div class="rainbow-box green-box">
+                            <h3>GREEN</h3>
+                            <p>Growth and Renewal</p>
+                        </div>
+
+                        <!-- BLUE -->
+                        <div class="rainbow-box blue-box">
+                            <h3>BLUE</h3>
+                            <p>Trust and Authentic Communication</p>
+                        </div>
+
+                        <!-- INDIGO -->
+                        <div class="rainbow-box indigo-box">
+                            <h3>INDIGO</h3>
+                            <p>Wisdom and Self-Awareness</p>
+                        </div>
+
+                        <!-- VIOLET -->
+                        <div class="rainbow-box violet-box">
+                            <h3>VIOLET</h3>
+                            <p>Purpose, Transformation and Legacy</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
         </div>
         <p style="text-align:center;">
             Five stories sit within each colour, bringing together 35 different moments, choices and emotions.
@@ -229,17 +307,17 @@ include "includes/header.php";
 
                     <!-- Heading -->
                     <!-- <h4 class="mb-3"> -->
-                        <span style="color:#373A6D; margin-bottom: .50rem;     
+                    <span style="color:#373A6D; margin-bottom: .50rem;     
                         font-size: 1.8rem;
                         font-weight: 700;">
-                            And Then Comes The Pause
-                        </span>
+                        And then comes the pause
+                    </span>
                     <!-- </h4> -->
 
                     <!-- Decorative Line -->
-                    <!-- <div class="mb-4"
+                    <div class="mb-4"
                         style="width:60px; height:3px; background:#F2A03A;">
-                    </div> -->
+                    </div>
 
                     <!-- Content -->
                     <p class="mb-2">
@@ -352,20 +430,48 @@ include "includes/header.php";
                 </div>
 
                 <!-- Buttons -->
-                <div class="d-flex flex-column flex-sm-row justify-content-center mb-1">
+                <div class="d-flex flex-row justify-content-center align-items-center gap-2 mb-1 w-100">
 
-                    <a href="https://www.amazon.in/Paint-Your-RAINBOW-Jyoti-Sapra-ebook/dp/B0HJNVXNX7" target="_blank"
-                        rel="noopener noreferrer"
-                        class="btn btn-primary text-white py-2 px-4">
-                        Buy the Book
-                    </a>
+                    <!-- Buy the Book Dropdown -->
+                    <div class="dropdown flex-fill">
+                        <button class="btn btn-primary dropdown-toggle px-1 px-sm-4 py-2 w-100"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Buy the Book
+                        </button>
 
-                    <a href="https://www.amazon.in/kindle-dbs/hz/subscribe/ku?ref=dbs_p_ebk_r00_pbcb_diupu0&passThroughAsin=B0HJNVXNX7" target="_blank"
-                        rel="noopener noreferrer"
-                        class="btn px-4 py-2"
-                        style="border:2px solid #373A6D; color:#373A6D;">
-                        Read an Excerpt
-                    </a>
+                        <ul class="dropdown-menu w-100">
+                            <li>
+                                <a class="dropdown-item px-3"
+                                    href="https://www.amazon.in/Paint-Your-RAINBOW-Jyoti-Sapra-ebook/dp/B0HJNVXNX7"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    Buy in India
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item px-3"
+                                    
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    Buy Internationally
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Read Excerpt -->
+                    <div class="flex-fill">
+                        <a href="https://www.amazon.in/kindle-dbs/hz/subscribe/ku?ref=dbs_p_ebk_r00_pbcb_diupu0&passThroughAsin=B0HJNVXNX7"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn px-3 px-sm-4 py-2 w-100"
+                            style="border:2px solid #373A6D; color:#373A6D;">
+                            Read an Excerpt
+                        </a>
+                    </div>
 
                 </div>
 

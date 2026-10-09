@@ -18,7 +18,7 @@ include "includes/header.php";
 
 <section id="about-section" class="py-4 bg-light" aria-labelledby="beneath-heading">
 
-  <div class="container">
+  <div class="container-fluid">
 
     <!-- Heading -->
     <div class="row justify-content-center text-center mb-3">
@@ -101,13 +101,13 @@ include "includes/header.php";
 
 </section>
 
-<div class="container-fluid bg-light">
-  <div class="row g-0 align-items-stretch">
+<div class="container-fluid">
+  <div class="row g-0 align-items-stretch mt-2">
 
     <!-- Left Image -->
     <div class="col-12 col-md-6">
       <img
-        src="<?= BASE_URL ?>images/coach_2_sm.jpg"
+        src="<?= BASE_URL ?>images/journey.jpeg"
         class="img-fluid w-100 h-100"
         style="object-fit: cover;"
         alt="Working with coffee and pen">
@@ -115,7 +115,7 @@ include "includes/header.php";
 
     <!-- Right Content -->
     <div class="col-12 col-md-6">
-      <div class="p-4 h-100">
+      <div class="h-100 p-4 coaching-approach-content">
 
         <h4>
           <span style="color:#373A6D" class="approach-eyebrow">
@@ -123,23 +123,23 @@ include "includes/header.php";
           </span>
         </h4>
 
-        <p style="text-align: justify;">
+        <p style="text-align: justify;" class="py-2">
           I spent 16 years at the American Embassy in Delhi, working in leadership and management and heading the Visa Fraud Investigation Department.
         </p>
 
-        <p style="text-align: justify;">
+        <p style="text-align: justify;" class="py-2">
           It was a demanding environment. It taught me to notice details, question assumptions and look beyond the first explanation. Those lessons have stayed with me.
         </p>
 
-        <p style="text-align: justify;">
+        <p style="text-align: justify;" class="py-1">
           Moving into coaching did not feel like starting over. I had always been curious about people: how they make decisions, how they respond under pressure, what they leave unsaid and what happens when they begin to see things differently. Coaching gave me the opportunity to explore those questions in a completely different way.
         </p>
 
-        <p style="text-align: justify;">
+        <p style="text-align: justify;" class="py-1">
           Over the years, I have worked with leaders and professionals through leadership challenges, career decisions and times when they were trying to work out what they wanted next.
         </p>
 
-        <p style="text-align: justify;">
+        <p style="text-align: justify;" class="py-1">
           Moving to Singapore also taught me what it means to start again in a new place, build new connections and find your sense of belonging. That experience has shaped the way I work with people going through change.
         </p>
 
@@ -149,12 +149,12 @@ include "includes/header.php";
   </div>
 </div>
 
-<div class="container-fluid bg-light">
+<div class="container-fluid">
   <div class="row g-0 align-items-stretch">
 
 
     <div class="col-12 col-md-6">
-      <div class="p-4 h-100">
+      <div class="h-100 p-4 coaching-approach-content">
 
         <h4>
           <span style="color:#373A6D" class="approach-eyebrow">
@@ -162,11 +162,11 @@ include "includes/header.php";
           </span>
         </h4>
 
-        <p style="text-align: justify;">
+        <p style="text-align: justify;" class="mt-2">
           I don't believe a coach needs to have the answers for you. You know your life better than I do.
         </p>
 
-        <p style="text-align: justify;">
+        <p style="text-align: justify;" class="py-2">
           My role is to listen, ask questions, challenge you when it is useful and give you space to think things through.
         </p>
 
@@ -206,8 +206,8 @@ include "includes/header.php";
 
     <div class="col-12 col-md-6">
       <img
-        src="<?= BASE_URL ?>images/coach_3_sm.jpg"
-        class="img-fluid w-100 h-100"
+        src="<?= BASE_URL ?>images/pexels-shkrabaanthony-5466249.jpg"
+        class="img-fluid w-100 h-100 "
         style="object-fit: cover;"
         alt="Working with coffee and pen">
     </div>
@@ -215,13 +215,13 @@ include "includes/header.php";
   </div>
 </div>
 
-<div class="container-fluid bg-light">
-  <div class="row g-0 align-items-stretch">
+<div class="container-fluid">
+  <div class="row g-0 align-items-stretch mt-4">
 
     <!-- Left Image -->
     <div class="col-12 col-md-6">
       <img
-        src="<?= BASE_URL ?>images/coach_1_sm.jpg"
+        src="<?= BASE_URL ?>images/pexels-nowrin-sanjana-2159843098-37071184.jpg"
         class="img-fluid w-100 h-100"
         style="object-fit: cover;"
         alt="Working with coffee and pen">
@@ -229,7 +229,7 @@ include "includes/header.php";
 
     <!-- Right Content -->
     <div class="col-12 col-md-6">
-      <div class="p-4 h-100">
+      <div class="p-2 h-100">
 
         <h4>
           <span style="color:#373A6D" class="approach-eyebrow">
@@ -237,7 +237,7 @@ include "includes/header.php";
           </span>
         </h4>
 
-        <ul>
+        <ul class="py-2" style="text-align: justify;">
           <li>25+ years of leadership, coaching and people development experience</li>
           <li>ICF Certified Coach</li>
           <li>Everything DiSC® Certified Trainer</li>
@@ -283,13 +283,9 @@ include "includes/header.php";
 
         <div class="p-4 p-md-3">
 
-          <p class="mb-4">
+          <p class="mb-4" style="text-align: justify;">
             You don't need to have everything figured out
-            before you reach out.
-          </p>
-
-          <p class="mb-4">
-            You may simply know that something isn't quite right.
+            before you reach out. You may simply know that something isn't quite right.
             Or that you are ready to look at something differently.
           </p>
 
@@ -298,10 +294,6 @@ include "includes/header.php";
             <a href="<?= BASE_URL ?>contact.php" class="btn btn-primary text-white py-2 px-4">
               We can start with a conversation.
             </a>
-            <!-- <p class="h4 fw-bold mb-0"
-                           style="color:#373A6D;">
-                            We can start with a conversation.
-                        </p> -->
           </div>
 
         </div>

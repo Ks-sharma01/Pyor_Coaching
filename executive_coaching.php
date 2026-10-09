@@ -12,14 +12,28 @@ include "includes/header.php";
           <div class="col-lg-12 ">
             <h1>Executive Coaching</h1>
             <p>Open Your Path To Success</p>
-            <p class="text-white">Executive coaching is the best way to unleash one’s potential by evolving one’s competence, clarity, focus, commitment, accountability, ownership, proficiency, creativity and decision making capability.</p>
       </div>
 
     </div>
   </div>
 </section>
 
-<div style="padding: 10px 5px 5px 10px">
+<!-- Introduction -->
+    <div class="row justify-content-center mt-3">
+      <div class="col-lg-9">
+
+        <div class="bg-white p-2 p-md-2 shadow-sm">
+
+          <p class="mb-0" style="text-align: justify;">
+            Executive coaching is the best way to unleash one’s potential by evolving one’s competence, clarity, focus, commitment, accountability, ownership, proficiency, creativity and decision making capability.
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+
+<div style="padding: 5px 5px 5px 10px">
     <div style="padding-top: 20px;padding-bottom: 20px;">
         <h3 style="text-align: center;">
             <span style="color: #373A6D;">“All coaching is, is taking a player where he can’t take himself”
@@ -32,13 +46,13 @@ include "includes/header.php";
 
 </div>
 
-<div class="container-fluid bg-light">
+<div class="container-fluid">
     <div class="row g-0 align-items-stretch">
 
         <!-- Left Image -->
         <div class="col-12 col-md-6">
             <img
-                src="<?php echo BASE_URL; ?>images/coach_2_sm.jpg"
+                src="<?php echo BASE_URL; ?>images/pexels-silverkblack-36765719.jpg"
                 class="img-fluid w-100 h-100"
                 style="object-fit: cover;"
                 alt="Working with coffee and pen">
@@ -46,23 +60,23 @@ include "includes/header.php";
 
         <!-- Right Content -->
         <div class="col-12 col-md-6">
-            <div class="p-4 h-100">
+            <div class="p-2 h-100">
 
-                <h4>
+                <h4 class="mb-2">
                     <span style="color:#373A6D" class="approach-eyebrow">
                         EXECUTIVE COACHING
                     </span>
                 </h4>
 
-                <p style="text-align: justify;">
+                <p style="text-align: justify;" class="py-1">
                     Coaching has become a viable option for businesses and organizations looking to operate at peak performance. Where training and workshops are usually general where everyone learns the same set of material, coaching is individualized and specifically tailored to the individuals.
                 </p>
 
-                <p style="text-align: justify;">
+                <p style="text-align: justify;" class="py-1">
                     In most coaching situations, the real objective is to help successful people become even more useful. Active coaches go to great lengths to emphasize the unique talents and abilities of their clients as well as emphasize their client’s potential. Not surprisingly, leadership coaching improves the bottom line.
                 </p>
 
-                <p style="text-align: justify;">
+                <p style="text-align: justify;" class="py-1">
                     At an individual level, in a sense, the leader often addresses Ms. Jyoti Sapra as a “confidential thinking partner.”
                 </p>
 
@@ -72,12 +86,12 @@ include "includes/header.php";
     </div>
 </div>
 
-<div class="container-fluid bg-light">
+<div class="container-fluid">
     <div class="row g-0 align-items-stretch">
 
 
         <div class="col-12 col-md-6">
-            <div class="p-4 h-100">
+            <div class="p-2 h-100 mt-2">
 
                 <p style="text-align: justify;">
                     For instance, the areas that senior personnel have sought her coaching for have included:
@@ -104,7 +118,7 @@ include "includes/header.php";
 
         <div class="col-12 col-md-6">
             <img
-                src="<?php echo BASE_URL; ?>images/coach_3_sm.jpg"
+                src="<?php echo BASE_URL; ?>images/pexels-silverkblack-23496456.jpg"
                 class="img-fluid w-100 h-100"
                 style="object-fit: cover;"
                 alt="Working with coffee and pen">

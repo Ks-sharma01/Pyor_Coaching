@@ -10,16 +10,31 @@ include "includes/header.php";
     <div class="row">
           <div class="col-lg-12">
             <h1>Let's talk.</h1>
-            <p>You may know exactly what you want to work on. Or you may simply know that something needs attention. Either is fine.</p>
-            <p class="text-white">Send me a note and tell me a little about what is on your mind.</p>
+            <p>You may know exactly what you want to work on.</p>
       </div>
     </div>
   </div>
 </section>
 
+<!-- Introduction -->
+    <div class="row justify-content-center mt-3">
+      <div class="col-lg-9">
+
+        <div class="bg-white p-2 p-md-2 shadow-sm">
+
+          <p class="mb-0" style="text-align: justify;">
+            You may simply know that something needs attention. Either is fine.
+            Send me a note and tell me a little about what is on your mind.
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+
 
 <!-- Contact Section -->
-<div class="site-section bg-light" id="contact-section">
+<div class="site-section" id="contact-section">
 
     <div class="container">
 
@@ -35,10 +50,6 @@ include "includes/header.php";
                 <div class="mx-auto"
                      style="width:60px; height:3px; background:#F2A03A;">
                 </div>
-
-                <p class="mt-2">
-                    Send me a note and tell me a little about what is on your mind.
-                </p>
 
             </div>
 

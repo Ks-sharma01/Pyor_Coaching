@@ -37,39 +37,36 @@ include "includes/header.php";
             </div>
         </div>
 
+    <!-- Introduction -->
+    <div class="row justify-content-center mb-3">
+      <div class="col-lg-9">
 
-        <!-- Introduction -->
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
+        <div class="bg-white p-2 p-md-4 shadow-sm">
 
-                <p class="lead">
-                    My approach to coaching starts with a simple question:
+          <p class="mb-0" style="text-align: justify;">
+            My approach to coaching starts with a simple question:
                     <strong style="color:#373A6D;">
                         what lies beneath the obvious?
                     </strong>
-                </p>
-
-                <p>
-                    You may come to me with a leadership challenge, a career
+             You may come to me with a leadership challenge, a career
                     decision, a difficult relationship, or a change you're
                     trying to work through.
-                </p>
 
-                <p>
-                    But sometimes, what we think is the problem isn't quite
+             But sometimes, what we think is the problem isn't quite
                     the real problem.
-                </p>
+          </p>
 
-            </div>
         </div>
 
+      </div>
+    </div>
 
         <!-- What May Be Beneath -->
-        <div class="row justify-content-center mb-3">
+        <div class="row justify-content-center mb-2">
 
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card h-100 border-1 text-center">
-                    <div class="card-body p-4">
+                    <div class="card-body p-3">
                         <div class="mb-1"
                             style="font-size:30px; color:#F2A03A;">
                             01
@@ -89,7 +86,7 @@ include "includes/header.php";
 
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card h-100 border-1 text-center">
-                    <div class="card-body p-4">
+                    <div class="card-body p-3">
                         <div class="mb-1"
                             style="font-size:30px; color:#F2A03A;">
                             02
@@ -109,7 +106,7 @@ include "includes/header.php";
 
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card h-100 border-1 text-center">
-                    <div class="card-body p-4">
+                    <div class="card-body p-3">
                         <div class="mb-1"
                             style="font-size:30px; color:#F2A03A;">
                             03
@@ -129,7 +126,7 @@ include "includes/header.php";
 
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="card h-100 border-1 text-center">
-                    <div class="card-body p-4">
+                    <div class="card-body p-3">
                         <div class="mb-1"
                             style="font-size:30px; color:#F2A03A;">
                             04
@@ -154,38 +151,24 @@ include "includes/header.php";
         <div class="row justify-content-center mb-2">
             <div class="col-lg-9">
 
-                <div class="bg-white p-4 p-md-3 text-center shadow-sm">
+                <div class="bg-white p-2 p-md-3 text-center shadow-sm">
 
                     <p class="h4 mb-2" style="color:#373A6D;">
                         Rubaru<sup>®</sup>
                     </p>
 
-                    <p>
+                    <p style="text-align: justify;">
                         Rubaru<sup>®</sup> is about taking a step back and
-                        looking at what's really going on.
-                    </p>
-
-                    <p>
+                        looking at what's really going on.   
                         Not to judge yourself. Not to find fault.
-                        Just to see yourself more clearly.
+                        Just to see yourself more clearly.  
+                        And sometimes, 
+                        seeing something clearly
+                        is enough to open up
+                        a different way forward.
                     </p>
 
                 </div>
-
-            </div>
-        </div>
-
-
-        <!-- Closing Thought -->
-        <div class="row justify-content-center text-center">
-            <div class="col-lg-8">
-
-                <p class="mb-0">
-                    And sometimes, 
-                    seeing something clearly
-                    is enough to open up
-                    a different way forward.
-                </p>
 
             </div>
         </div>
@@ -194,13 +177,13 @@ include "includes/header.php";
 
 </section>
 
-<div class="container-fluid bg-light">
+<div class="container-fluid">
     <div class="row g-0 align-items-stretch">
 
         <!-- Left Image -->
         <div class="col-12 col-md-6">
             <img
-                src="<?php BASE_URL; ?>images/coach_2_sm.jpg"
+                src="<?php BASE_URL; ?>images/pexels-a-darmel-8134067.jpg"
                 class="img-fluid w-100 h-100"
                 style="object-fit: cover;"
                 alt="Working with coffee and pen">
@@ -208,7 +191,7 @@ include "includes/header.php";
 
         <!-- Right Content -->
         <div class="col-12 col-md-6">
-            <div class="p-4 h-100">
+            <div class="p-2 h-100">
 
                 <div class="mb-4">
 
@@ -221,20 +204,17 @@ include "includes/header.php";
                 </div>
 
 
-                <p style="text-align: justify;">
+                <p style="text-align: justify;" class="py-1">
                     You may be stepping into a bigger role, managing people for the first time, working through a difficult dynamic on your team, or simply wondering if the way you've always led still works for you.
                 </p>
 
-                <p style="text-align: justify;">
+                <p style="text-align: justify;" class="py-1">
                     Coaching gives you a place to talk things through, step back from the day-to-day, and look at how you actually want to lead.
                 </p>
 
-                <p style="text-align: justify;">
+                <p style="text-align: justify;" class="py-1">
                     Because leadership isn't only about what you do. It's also about how you show up.
                 </p>
-
-
-
             </div>
         </div>
 
@@ -242,12 +222,12 @@ include "includes/header.php";
 </div>
 
 
-<div class="container-fluid bg-light">
+<div class="container-fluid">
     <div class="row g-0 align-items-stretch">
 
 
         <div class="col-12 col-md-6">
-            <div class="p-4 h-100">
+            <div class="p-2 h-100">
 
                 <div class="mb-4">
 
@@ -284,7 +264,7 @@ include "includes/header.php";
 
         <div class="col-12 col-md-6">
             <img
-                src="<?php BASE_URL; ?>images/coach_1_sm.jpg"
+                src="<?php BASE_URL; ?>images/pexels-karola-g-6255633.jpg"
                 class="img-fluid w-100 h-100"
                 style="object-fit: cover;"
                 alt="Working with coffee and pen">
@@ -293,7 +273,7 @@ include "includes/header.php";
     </div>
 </div>
 
-<section id="about-section" class="py-4 bg-light" aria-labelledby="begin-heading">
+<section id="about-section" class="py-4" aria-labelledby="begin-heading">
 
     <div class="container">
 

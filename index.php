@@ -11,11 +11,25 @@ include "includes/header.php";
           <div class="col-lg-12">
             <h1>I am <span class="typed-words"></span></h1>
             <p>Paint Your Own Rainbow</p>
-            <p class="text-white">We are committed to help you find control over your own learning process to recognize, prioritize and achieve your personal and professional goals.</p>
       </div>
     </div>
   </div>
 </section>
+
+<!-- Introduction -->
+    <div class="row justify-content-center mt-3">
+      <div class="col-lg-9">
+
+        <div class="bg-white p-2 p-md-2 shadow-sm">
+
+          <p class="mb-0 p-2" style="text-align: justify;">
+           We are committed to help you find control over your own learning process to recognize, prioritize and achieve your personal and professional goals.
+          </p>
+
+        </div>
+
+      </div>
+    </div>
 
 <section class="site-section coaching-benefits" id="about-section" aria-labelledby="benefits-heading">
   <div class="container">
@@ -65,58 +79,109 @@ include "includes/header.php";
 </section>
 
 <section class="coaching-approach" aria-labelledby="approach-heading">
-  <div class="container-fluid px-0">
-    <div class="row no-gutters align-items-stretch">
+    <div class="container">
 
-      <!-- Image -->
-      <div class="col-12 col-lg-6 d-flex">
-        <img
-          class="coaching-approach-image w-100"
-          src="<?= BASE_URL ?>images/coach_2_sm.jpg"
-          alt="Our Approach">
-      </div>
+        <div class="row align-items-center g-0">
 
-      <!-- Content -->
-      <div class="col-12 col-lg-6 d-flex">
-        <div class="coaching-approach-content w-100">
+            <!-- Image -->
+            <div class="col-12 col-lg-6">
+                <div class="approach-image-wrapper">
+                    <img
+                        src="<?= BASE_URL ?>images/pexels-pavel-danilyuk-7222093.jpg"
+                        class="approach-image"
+                        alt="Our Approach">
+                </div>
+            </div>
 
-          <p class="approach-eyebrow">Our Approach</p>
+            <!-- Content -->
+            <div class="col-12 col-lg-6">
+                <div class="coaching-approach-content">
 
-          <h2 class="text-black mb-4" id="approach-heading">
-            A space to find your own way forward
-          </h2>
+                    <p class="approach-eyebrow mb-2">
+                        OUR APPROACH
+                    </p>
 
-          <p style="text-align: justify;">
-            Coaching is a form of facilitation built on the belief that you are fully capable of working things out, because you know yourself best.
-          </p>
+                    <h2 id="approach-heading" class="approach-title mb-4">
+                        A space to find your own way forward
+                    </h2>
 
-          <ul style="text-align: justify;">
-            <li>
-              Your coach helps you see your current situation clearly, identify what matters, and find solutions that move you toward your goals.
-            </li>
-            <li>
-              Powerful questions help you reflect on where you are now and where you want to be.
-            </li>
-            <li>
-              Sessions are individual and confidential, held in person, by phone, or by video to fit your needs.
-            </li>
-          </ul>
+                    <p class="approach-intro">
+                        Coaching is a form of facilitation built on the belief
+                        that you are fully capable of working things out,
+                        because you know yourself best.
+                    </p>
 
-          <p style="text-align: justify;">
-            One-on-one coaching is not counseling or therapy. A coach helps you identify your priorities and create your own personal action plan.
-          </p>
+                    <!-- Key points -->
+                    <div class="approach-points">
 
-          <a class="btn btn-primary mt-2" href="<?= BASE_URL ?>contact.php">
-            Let's partner in your next-level success
-          </a>
+                        <div class="approach-point">
+                            <div class="point-icon">
+                                <span>01</span>
+                            </div>
+
+                            <div>
+                                <h5>See things clearly</h5>
+                                <p>
+                                    Your coach helps you understand your current
+                                    situation, identify what matters, and find
+                                    solutions that move you toward your goals.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="approach-point">
+                            <div class="point-icon">
+                                <span>02</span>
+                            </div>
+
+                            <div>
+                                <h5>Reflect & discover</h5>
+                                <p>
+                                    Powerful questions help you reflect on where
+                                    you are now and where you want to be.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="approach-point">
+                            <div class="point-icon">
+                                <span>03</span>
+                            </div>
+
+                            <div>
+                                <h5>Move forward</h5>
+                                <p>
+                                    Sessions are individual and confidential,
+                                    held in person, by phone, or by video to
+                                    fit your needs.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="approach-note">
+                        <p>
+                            <strong>One-on-one coaching is not counseling or therapy.</strong>
+                            A coach helps you identify your priorities and
+                            create your own personal action plan.
+                        </p>
+                    </div>
+
+                    <a href="<?= BASE_URL ?>contact.php"
+                       class="btn approach-btn">
+                        Let's partner in your next-level success
+                        <span class="ms-2">→</span>
+                    </a>
+
+                </div>
+            </div>
 
         </div>
-      </div>
 
     </div>
-  </div>
 </section>
-</div>
+
 
 
 <section class="site-section bg-light" id="training-section">
@@ -129,120 +194,33 @@ include "includes/header.php";
 
     <div class="nonloop-block-13 owl-style owl-carousel">
       <div class="training">
-        <figure class="mb-4"><img src="<?= BASE_URL ?>images/coach_2_sm.jpg" alt="Image" class="img-fluid"></figure>
+        <figure class="mb-4"><img src="<?= BASE_URL ?>images/pexels-yankrukov-7793151.jpg" alt="Image" class="img-fluid" style="border-radius: 15px;"></figure>
         <h3 class="text-black mb-3">Executive & Leadership Coaching</h3>
         <p style="text-align: justify;">We go to great lengths to emphasize the unique talents and abilities of our clients to achieve better results and become better leaders.</p>
-        <a class="btn btn-primary mt-1" href="<?= BASE_URL ?>services.php">Read More</a>
-
+        <a class="btn btn-primary mt-2" href="<?= BASE_URL ?>services.php">Read More</a>
       </div>
 
       <div class="training">
-        <figure class="mb-4"><img src="<?= BASE_URL ?>images/coach_1_sm.jpg" alt="Image" class="img-fluid"></figure>
+        <figure class="mb-4"><img src="<?= BASE_URL ?>images/pexels-cottonbro-4101143.jpg" alt="Image" class="img-fluid" style="border-radius: 15px;"></figure>
         <h3 class="text-black mb-3">Transforming Lives</h3>
         <p style="text-align: justify;">We help you connect your head and heart in a way that transforms your dreams into actions. We help you discover your personal best.</p>
-        <a class="btn btn-primary mt-1" href="<?= BASE_URL ?>life_coaching.php">Read More</a>
-
+        <a class="btn btn-primary mt-2" href="<?= BASE_URL ?>life_coaching.php">Read More</a>
       </div>
 
       <div class="training">
-        <figure class="mb-4"><img src="<?= BASE_URL ?>images/coach_3_sm.jpg" alt="Image" class="img-fluid"></figure>
+        <figure class="mb-4"><img src="<?= BASE_URL ?>images/pexels-rdne-9034755.jpg" alt="Image" class="img-fluid" style="border-radius: 15px;"></figure>
         <h3 class="text-black mb-3">Employee Assistance Program</h3>
         <p>Employee Assistance Program (EAP) is a specially designed program for executives to handle their personal and professional challenges.</p>
-        <a class="btn btn-primary mt-1" href="<?= BASE_URL ?>employee_assessment_program.php">Read More</a>
-
+        <a class="btn btn-primary mt-2" href="<?= BASE_URL ?>employee_assessment_program.php">Read More</a>
       </div>
-
-
     </div>
 
   </div>
 </section>
 
-<!-- <section class="site-section" id="testimonials-section" data-aos="fade">
-  <div class="container">
-
-    <div class="row justify-content-center" data-aos="fade-up">
-      <div class="col-lg-6 text-center mb-5">
-        <h2 class="text-black mb-2">Happy Customers</h2>
-      </div>
-    </div>
-    <div data-aos="fade-up" data-aos-delay="200">
-      <div class="owl-carousel owl-style owl-carousel-one no-owl-nav">
-        <div>
-          <div class="block-testimony-1 text-center">
-
-            <blockquote class="mb-4">
-              <p>&ldquo;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&rdquo;</p>
-            </blockquote>
-
-            <figure>
-              <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle mx-auto">
-            </figure>
-            <h3 class="font-size-20 text-black">Ricky Fisher</h3>
-          </div>
-        </div>
-
-        <div>
-          <div class="block-testimony-1 text-center">
-
-
-
-            <blockquote class="mb-4">
-              <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
-            </blockquote>
-
-            <figure>
-              <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded-circle mx-auto">
-            </figure>
-            <h3 class="font-size-20 mb-4 text-black">Ken Davis</h3>
-
-
-          </div>
-        </div>
-
-        <div>
-          <div class="block-testimony-1 text-center">
-
-
-            <blockquote class="mb-4">
-              <p>&ldquo;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p>
-            </blockquote>
-
-            <figure>
-              <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle mx-auto">
-            </figure>
-            <h3 class="font-size-20 text-black">Mellisa Griffin</h3>
-
-
-          </div>
-        </div>
-
-        <div>
-          <div class="block-testimony-1 text-center">
-
-
-            <blockquote class="mb-4">
-              <p>&ldquo;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est maxime adipisci incidunt voluptatum pariatur. Officia eaque ipsum ducimus. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-            </blockquote>
-
-            <figure>
-              <img src="images/person_3.jpg" alt="Image" class="img-fluid rounded-circle mx-auto">
-            </figure>
-            <h3 class="font-size-20 mb-4 text-black">Robert Steward</h3>
-
-
-          </div>
-        </div>
-
-
-      </div>
-    </div>
-  </div>
-</section> -->
-
 <section class="site-section bg-primary" id="services-section">
   <div class="container">
-    <div class="row mb-5 justify-content-center">
+    <div class="row mb-4 justify-content-center">
       <div class="col-md-7 text-center">
         <h2 class="text-white">TRENDING NOW</h2>
       </div>
@@ -250,29 +228,29 @@ include "includes/header.php";
 
     <div class="nonloop-block-13 owl-style owl-style-md owl-carousel">
       <div class="service bg-white">
-        <div class="icon"><span class="flaticon-elearning display-2 text-primary"></span></div>
-        <h3 class="text-black mb-3">How To Handle High-Pressure Situations</h3>
+        <div class="icon"><img src="<?= BASE_URL ?>images/man.png" alt="Icon" class="img-fluid" style="height: 90px; width: 90px;"></div>
+        <h3 class="text-black my-2">How To Handle High-Pressure Situations</h3>
         <p>July 14, 2026</p>
         <p style="text-align: justify">High-pressure situations can be stressful but don't have to be overwhelming. With the right strategies, you can navigate these challenges with confidence and ease. Here are some tips to help you handle high-pressure situations...</p>
-        <a class="btn btn-primary mt-1" href="<?= BASE_URL ?>handle_pressure.php">Read More</a>
+        <a class="btn btn-primary mt-2" href="<?= BASE_URL ?>handle_pressure.php">Read More</a>
 
       </div>
 
       <div class="service bg-white">
-        <div class="icon"><span class="flaticon-target display-2 text-primary"></span></div>
-        <h3 class="text-black mb-3">Executive Coaching - Need of the Hour</h3>
+        <div class="icon"><img src="<?= BASE_URL ?>images/mentoring.png" alt="Icon" class="img-fluid" style="height: 90px; width: 90px;"></div>
+        <h3 class="text-black my-2">Executive Coaching - Need of the Hour</h3>
         <p>October 02, 2026</p>
-        <p>Executives’ roles have become very demanding and require them to demonstrate sheer alacrity, dexterity and versatility in all facets of their responsibilities, be it people management, planning, strategy development...</p>
-        <a class="btn btn-primary mt-1" href="<?= BASE_URL ?>need_hour.php">Read More</a>
+        <p style="text-align: justify">Executives roles have become very demanding and require them to demonstrate sheer alacrity, dexterity and versatility in all facets of their responsibilities, be it people management, planning, strategy...</p>
+        <a class="btn btn-primary mt-2" href="<?= BASE_URL ?>need_hour.php">Read More</a>
 
       </div>
 
       <div class="service  bg-white">
-        <div class="icon"><span class="flaticon-group display-2 text-primary"></span></div>
-        <h3 class="text-black mb-3">Work Life Balance</h3>
+        <div class="icon"><img src="<?= BASE_URL ?>images/balance.png" alt="Icon" class="img-fluid" style="height: 90px; width: 90px;"></div>
+        <h3 class="text-black my-2">Work Life Balance</h3>
         <p>June 30, 2026</p>
-        <p style="text-align: justify">If you are worn out from work and don’t feel like pursuing your hobby, then you are severely deficient in Vitamin “ME”. You are experiencing the “Balance Syndrome” and the symptoms are very obvious – you are checking emails after work; taking calls beyond business hours...</p>
-        <a class="btn btn-primary mt-1" href="<?= BASE_URL ?>work_life.php">Read More</a>
+        <p style="text-align: justify">If you are worn out from work and don’t feel like pursuing your hobby, then you are severely deficient in Vitamin “ME”. You are experiencing the “Balance Syndrome” and the symptoms are very obvious – you are checking emails after work; taking calls...</p>
+        <a class="btn btn-primary mt-2" href="<?= BASE_URL ?>work_life.php">Read More</a>
 
       </div>
 

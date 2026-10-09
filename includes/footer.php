@@ -1,165 +1,95 @@
-<footer class="site-footer bg-primary">
-    <div class="container-fluid">
-        <div class="row center-footer">
+<footer class="pyor-footer">
+    <div class="container pyor-footer-main">
+        <div class="row">
 
-            <!-- Proud Member -->
-            <div class="col-12 col-md-4 mb-4 mb-md-0">
-                <h2 class="footer-heading mb-4">Proud Member Of</h2>
+            <!-- Brand -->
+            <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+                <a href="<?= BASE_URL ?>index.php" class="pyor-footer-brand">Pyor Coaching</a>
+                <span class="pyor-footer-motto">Paint Your Own Rainbow</span>
+                <p class="pyor-footer-tagline">
+                    Coaching for leaders, teams and individuals.
+                </p>
 
-                <img src="<?= BASE_URL ?>images/icflogowhite.png"
-                     alt="Proud Member Of"
-                     class="img-fluid">
+                <div class="pyor-social">
+                    <a href="https://www.instagram.com/_pyorcoaching_/" target="_blank" rel="noopener" aria-label="Instagram">
+                        <span class="icon-instagram"></span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jyotiis/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <span class="icon-linkedin"></span>
+                    </a>
+                </div>
+                 <div class="pyor-credentials-logos mt-4">
+                <img class="logo-icf" src="<?= BASE_URL ?>images/icf.png" alt="International Coach Federation">
+                <img class="logo-apac" src="<?= BASE_URL ?>images/apac.png" alt="APAC">
+                <img class="logo-disc" src="<?= BASE_URL ?>images/disc.png" alt="DiSC">
+            </div>
             </div>
 
-
             <!-- Quick Links -->
-            <div class="col-12 col-md-4 col-lg-3 mb-4 mb-md-0">
-                <h2 class="footer-heading mb-3">Quick Links</h2>
+            <div class="col-6 col-md-4 col-lg-2 mb-5 mb-md-0">
+                <h2 class="pyor-footer-heading">Quick Links</h2>
+                <ul class="pyor-footer-list">
+                    <li><a href="<?= BASE_URL ?>index.php">Home</a></li>
+                    <li><a href="<?= BASE_URL ?>about.php">About</a></li>
+                    <li><a href="<?= BASE_URL ?>coaching.php">Coaching</a></li>
+                    <li><a href="<?= BASE_URL ?>organizations.php">Organizations</a></li>
+                    <li><a href="<?= BASE_URL ?>book.php">The Book</a></li>
+                    <li><a href="<?= BASE_URL ?>blogs.php">Blogs</a></li>
+                    <li><a href="<?= BASE_URL ?>contact.php">Contact Us</a></li>
+                </ul>
+            </div>
 
-                <ul class="list-unstyled mb-0">
+            <!-- Services -->
+            <div class="col-6 col-md-4 col-lg-3 mb-5 mb-md-0">
+                <h2 class="pyor-footer-heading">
+                    <a href="<?= BASE_URL ?>services.php" class="text-white">Services</a>
+                </h2>
+                <ul class="pyor-footer-list">
+                    <li><a href="<?= BASE_URL ?>executive_coaching.php">Executive Coaching</a></li>
+                    <li><a href="<?= BASE_URL ?>leadership_coaching.php">Leadership Coaching</a></li>
+                    <li><a href="<?= BASE_URL ?>life_coaching.php">Life Coaching</a></li>
+                    <li><a href="<?= BASE_URL ?>employee_assessment_program.php">Employee Assistance Program</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-12 col-md-4 col-lg-3">
+                <h2 class="pyor-footer-heading">Contact Us</h2>
+                <ul class="pyor-footer-list pyor-contact">
                     <li>
-                        <a href="<?= BASE_URL ?>index.php" class="nav-link px-0">
-                            Home
-                        </a>
+                        <span class="pyor-contact-label">Location</span>
+                        Singapore | India
                     </li>
-
                     <li>
-                        <a href="<?= BASE_URL ?>about.php" class="nav-link px-0">
-                            About
-                        </a>
+                        <span class="pyor-contact-label">Phone</span>
+                        <a href="tel:+6582921920">+65 8292 1920 (Singapore)</a><br>
+                        <a href="tel:+919871404023">+91 98714 04023 (India)</a>
                     </li>
-
                     <li>
-                        <a href="<?= BASE_URL ?>coaching.php" class="nav-link px-0">
-                            Coaching
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="<?= BASE_URL ?>organizations.php" class="nav-link px-0">
-                            Organizations
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="<?= BASE_URL ?>book.php" class="nav-link px-0">
-                            The Book
-                        </a>
-                    </li>
-
-                     <li>
-                  <a href="<?= BASE_URL ?>services.php" class="nav-link px-0">Services</a>
-                  <ul>
-                    <li style="list-style: none;"><a href="<?= BASE_URL ?>executive_coaching.php">Executive Coaching</a></li>
-                    <li style="list-style: none;"><a href="<?= BASE_URL ?>leadership_coaching.php">Leadership Coaching</a></li>
-                    <li style="list-style: none;"><a href="<?= BASE_URL ?>life_coaching.php">Life Coaching</a></li>
-                    <li style="list-style: none;"><a href="<?= BASE_URL ?>employee_assessment_program.php">Employee Assistance Program</a></li>
-                  </ul>
-                </li>
-
-                    <li>
-                        <a href="<?= BASE_URL ?>blogs.php" class="nav-link px-0">
-                            Blogs
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="<?= BASE_URL ?>contact.php" class="nav-link px-0">
-                            Contact Us
-                        </a>
+                        <span class="pyor-contact-label">Email</span>
+                        <a href="mailto:jyoti@pyorcoaching.com">jyoti@pyorcoaching.com</a>
                     </li>
                 </ul>
             </div>
 
-
-            <!-- Follow + Contact -->
-            <div class="col-12 col-md-4 col-lg-5">
-
-                <h2 class="footer-heading mb-3">Follow Us</h2>
-
-                <a href="https://www.instagram.com/_pyorcoaching_/"
-                   target="_blank"
-                   class="pl-2 pr-2">
-                    <span class="icon-instagram"></span>
-                </a>
-
-                <a href="https://www.linkedin.com/in/jyotiis/"
-                   target="_blank"
-                   class="pl-2 pr-2">
-                    <span class="icon-linkedin"></span>
-                </a>
-
-
-                <h2 class="footer-heading mt-4 mb-3">
-                    Contact Us
-                </h2>
-
-                <!-- Address -->
-                <div class="mb-3">
-                    <p class="mb-0 font-weight-bold text-white">
-                        Address
-                    </p>
-                    <p class="mb-0">
-                        Singapore | India
-                    </p>
-                </div>
-
-                <!-- Phone -->
-                <div class="mb-3">
-                    <p class="mb-0 font-weight-bold text-white">
-                        Phone
-                    </p>
-                    <p class="mb-0">
-                        +65 82921920 (Singapore)
-                    </p>
-                    <p class="mb-0">
-                        +91 9871404023 (India)
-                    </p>
-                </div>
-
-                <!-- Email -->
-                <div class="mb-3">
-                    <p class="mb-0 font-weight-bold text-white">
-                        Email Address
-                    </p>
-                    <a href="mailto:jyoti@pyorcoaching.com">
-                        jyoti@pyorcoaching.com
-                    </a>
-                </div>
-
-            </div>
-
         </div>
 
+        <!-- Credentials -->
+        <div class="pyor-credentials">
+            <span class="pyor-credentials-title">&copy; <?= date('Y') ?> Jyoti Sapra. All rights reserved.</span>
 
-        <!-- Copyright -->
-        <div class="row mt-3">
-            <div class="col-12">
-                <div class="border-top pt-2">
-                    <p class="mb-0">
-                        Copyright &copy; Jyoti Sapra <?= date('Y') ?>.
-                        All Rights Reserved.
-                    </p>
-                </div>
-            </div>
         </div>
-
     </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="<?= BASE_URL ?>js/main.js"></script>
-
 <script async src='https://script-tags.delightchatmedia.com/whatsapp-chat-button/embeds/embed.min.js'></script>
         <script>
-          var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"919871404023","welcomeMessage":"","zIndex":999999,"btnColorScheme":"light"};
+          var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"6582921920","welcomeMessage":"","zIndex":999999,"btnColorScheme":"light"};
           var wa_widgetSetting = {"title":"Pyor Coaching","subTitle":"Paint Your Own Rainbow","headerBackgroundColor":"#47c260","headerColorScheme":"light","greetingText":"Hi there! \nHow can I help you?","ctaText":"Start Chat","btnColor":"#47c260","cornerRadius":40,"welcomeMessage":"Hello","btnColorScheme":"light","brandImage":"","darkHeaderColorScheme":{"title":"#333333","subTitle":"#4F4F4F"}};  
           window.onload = () => {
             _waEmbed(wa_btnSetting, wa_widgetSetting);
           };
         </script>
-      
-      
-      
-      
-      
+

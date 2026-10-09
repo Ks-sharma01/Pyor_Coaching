@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" id="home-section">
   
@@ -55,9 +55,7 @@
         <div class="row align-items-center">
           
           <div class="col-6 col-xl-2">
-            <a href="<?= BASE_URL ?>index.php"><img src="<?= BASE_URL ?>images/logo.png" height="50px"/></a>
-            <!-- <img src="<?= BASE_URL ?>images/logo.png" height="50px"/> -->
-            <!-- <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0">Coaching<span class="text-primary">.</span> </a></h1> -->
+            <a href="<?= BASE_URL ?>index.php"><img src="<?= BASE_URL ?>images/pyor_logo.png" height="50px"/></a>
           </div>
 
           <div class="col-12 col-md-10 d-none d-xl-block">
@@ -68,8 +66,14 @@
                 <li><a href="<?= BASE_URL ?>about.php" class="nav-link<?= $currentPage === 'about.php' ? ' active' : '' ?>">About</a></li>
                 <li><a href="<?= BASE_URL ?>coaching.php" class="nav-link<?= $currentPage === 'coaching.php' ? ' active' : '' ?>">Coaching</a></li>
                 <li><a href="<?= BASE_URL ?>organizations.php" class="nav-link<?= $currentPage === 'organizations.php' ? ' active' : '' ?>">Organizations</a></li>
-                <li><a href="<?= BASE_URL ?>book.php" class="nav-link<?= $currentPage === 'book.php' ? ' active' : '' ?>">The Book</a></li>
-                <li class="has-children">
+              <li>
+                  <a href="<?= BASE_URL ?>book.php"
+                    class="nav-link book-nav-link<?= $currentPage === 'book.php' ? ' active' : '' ?>">
+                      <i class="fas fa-book-open mr-1"></i>
+                      The Book
+                  </a>
+              </li>                
+              <li class="has-children">
                   <a href="<?= BASE_URL ?>services.php" class="nav-link<?= in_array($currentPage, $servicePages, true) ? ' active' : '' ?>">Services</a>
                   <ul class="dropdown">
                     <li><a class="<?= $currentPage === 'executive_coaching.php' ? 'active' : '' ?>" href="<?= BASE_URL ?>executive_coaching.php">Executive Coaching</a></li>

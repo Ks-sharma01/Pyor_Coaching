@@ -12,13 +12,27 @@ include "includes/header.php";
           <div class="col-lg-12">
             <h1>Employee Assistance Program</h1>
             <p>Unleash the potential in you</p>
-            <p class="text-white">Let your employees reinvigorate their personalities with this dynamic program, and watch your workplace almost magically transform.</p>
       </div>
     </div>
   </div>
 </section>
 
-<div style="padding: 10px 5px 5px 10px">
+<!-- Introduction -->
+    <div class="row justify-content-center mt-3">
+      <div class="col-lg-9">
+
+        <div class="bg-white p-2 p-md-2 shadow-sm">
+
+          <p class="px-2" style="text-align: justify;">
+            Let your employees reinvigorate their personalities with this dynamic program, and watch your workplace almost magically transform.
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+
+<div style="padding: 5px 5px 5px 10px">
     <div style="padding-top: 20px;padding-bottom: 20px;">
         <h3 style="text-align: center;">
             <span style="color: #373A6D;">“A leader is best when people barely know he exists, when his work is done, his aim fulfilled, they will say: We did it ourselves”
@@ -29,13 +43,13 @@ include "includes/header.php";
     </div>
 </div>
 
-<div class="container-fluid bg-light">
+<div class="container-fluid">
     <div class="row g-0 align-items-stretch">
 
         <!-- Left Image -->
         <div class="col-12 col-md-6">
             <img
-                src="<?php echo BASE_URL; ?>images/coach_2_sm.jpg"
+                src="<?php echo BASE_URL; ?>images/pexels-yankrukov-7794049.jpg"
                 class="img-fluid w-100 h-100"
                 style="object-fit: cover;"
                 alt="Working with coffee and pen">
@@ -43,19 +57,19 @@ include "includes/header.php";
 
         <!-- Right Content -->
         <div class="col-12 col-md-6">
-            <div class="p-4 h-100">
+            <div class="p-2 h-100">
 
-                <h4>
+                <h4 class="mb-1">
                     <span style="color:#373A6D" class="approach-eyebrow">
                         Employee Assistance Program
                     </span>
                 </h4>
 
-                <p style="text-align: justify;">
+                <p style="text-align: justify;" class="py-1">
                     The EAP is premised on the belief that mental health has a direct correlation to the performance and productivity of the employee. EAP is a work-based intervention program designed to identify and assist employees in resolving work-related issues and personal challenges that may be adversely affecting their performance at work, such as marital, financial, emotional problems.
                 </p>
 
-                <p style="text-align: justify;">
+                <p style="text-align: justify;" class="py-1">
                     Typically, what happens when you offer an EAP is that an employee under stress can meet or call at a phone number to get immediate help from a Coach. Some of the critical areas where we have worked with the organizations are:
                 </p>
 
@@ -82,20 +96,20 @@ include "includes/header.php";
     </div>
 </div>
 
-<div class="container-fluid bg-light">
+<div class="container-fluid mt-2">
     <div class="row g-0 align-items-stretch">
 
 
         <div class="col-12 col-md-6">
-            <div class="p-4 h-100">
+            <div class="p-2 h-100">
 
-                <h4>
+                <h4 class="mb-2">
                     <span style="color:#373A6D" class="approach-eyebrow">
                         Benefits of having EAP program in your organization
                     </span>
                 </h4>
 
-                <p style="text-align: justify;">
+                <p style="text-align: justify;" class="py-1">
                     If issues like Absenteeism, grievances, terminations, medical disability, etc are left untreated in the workplace, they translate into poor performance, missed work, bad customer service and workplace injuries that may cost the employers in terms of disability and workers compensation.
                 </p>
 
@@ -108,7 +122,7 @@ include "includes/header.php";
 
         <div class="col-12 col-md-6">
             <img
-                src="<?php echo BASE_URL; ?>images/coach_3_sm.jpg"
+                src="<?php echo BASE_URL; ?>images/pexels-silverkblack-23496904.jpg"
                 class="img-fluid w-100 h-100"
                 style="object-fit: cover;"
                 alt="Working with coffee and pen">

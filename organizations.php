@@ -16,21 +16,21 @@ include "includes/header.php";
   </div>
 </section>
 
-<div class="container-fluid bg-light mt-1 shadow-sm">
+<div class="container-fluid mt-2">
     <div class="row g-0">
 
         <!-- Left Image -->
         <div class="col-12 col-md-6">
             <img
-                src="<?= BASE_URL ?>images/coach_1_sm.jpg"
+                src="<?= BASE_URL ?>images/pexels-a-darmel-7642116.jpg"
                 class="img-fluid w-100 h-100"
                 style="object-fit: cover;"
                 alt="Working with coffee and pen">
         </div>
 
         <!-- Right Content -->
-        <div class="col-12 col-md-6">
-            <div class="p-4 h-100">
+        <div class="col-12 col-md-6 mt-2">
+            <div class="p-2 h-100">
 
                 <h4>
                     <span style="color:#373A6D" class="approach-eyebrow">
@@ -38,28 +38,28 @@ include "includes/header.php";
                     </span>
                 </h4>
 
-                <div>
+                <div class="mt-2 py-2">
                     <h5 style="color:#c7b272;">Leadership</h5>
                     <p>
                         New roles · Managing people · Difficult conversations · Leadership under pressure
                     </p>
                 </div>
 
-                <div>
+                <div class="py-2">
                     <h5 style="color:#c7b272;">Career & Life Transitions</h5>
                     <p>
                         Career crossroads · Role transitions · Relocation · Cross-cultural moves · What next?
                     </p>
                 </div>
 
-                <div>
+                <div class="py-2">
                     <h5 style="color:#c7b272;">Return To Work</h5>
                     <p>
                         Career breaks · Confidence · Professional identity · Readiness to return
                     </p>
                 </div>
 
-                <div>
+                <div class="py-2">
                     <h5 style="color:#c7b272;">Employee Support</h5>
                     <p>
                         Workplace pressure · Relationships · Self-management · Personal transitions
@@ -72,12 +72,12 @@ include "includes/header.php";
     </div>
 </div>
 
-<div class="container-fluid bg-light">
+<div class="container-fluid">
     <div class="row g-0 align-items-stretch">
 
 
-        <div class="col-12 col-md-6">
-            <div class="p-4 h-100">
+        <div class="col-12 col-md-6 mt-2">
+            <div class="p-2 h-100">
 
                 <div class="mb-4">
 
@@ -89,7 +89,7 @@ include "includes/header.php";
                     <i>Facilitating Access to Successful Transformation</i>
                 </div>
 
-                <p style="text-align: justify; font-weight: bold">
+                <p style="text-align: justify; font-weight: bold" class="pb-1">
                     For experienced professionals returning to work after a career break.
                 </p>
 
@@ -101,7 +101,7 @@ include "includes/header.php";
                     Not CV polishing.
                 </p>
 
-                <p style="text-align: justify;">
+                <p style="text-align: justify;" class="py-1">
                     One-to-one coaching that helps returning professionals reconnect with their professional identity, recognise the value of their experience and think through what comes next.
                 </p>
 
@@ -111,7 +111,7 @@ include "includes/header.php";
 
         <div class="col-12 col-md-6">
             <img
-                src="<?= BASE_URL ?>images/coach_2_sm.jpg"
+                src="<?= BASE_URL ?>images/pexels-cottonbro-4098151.jpg"
                 class="img-fluid w-100 h-100"
                 style="object-fit: cover;"
                 alt="Working with coffee and pen">
@@ -120,7 +120,7 @@ include "includes/header.php";
     </div>
 </div>
 
-<section id="about-section" class="py-3 bg-light" aria-labelledby="coaching-heading">
+<section id="about-section" class="py-3" aria-labelledby="coaching-heading">
 
     <div class="container">
 
@@ -199,7 +199,7 @@ include "includes/header.php";
 
 </section>
 
-<section id="about-section" class="py-3 bg-light" aria-labelledby="hr-heading">
+<section id="about-section" class="py-3" aria-labelledby="hr-heading">
 
     <div class="container">
 
@@ -223,21 +223,16 @@ include "includes/header.php";
         <div class="row justify-content-center">
             <div class="col-12 col-lg-9">
 
-                <div class="bg-white shadow-sm p-4 p-md-4">
+                <div class="bg-white shadow-sm p-4 p-md-2">
 
-                    <p class="mb-2">
+                    <p class="mb-2" style="text-align: justify;">
                         Coaching can complement leadership development,
                         talent programmes and existing Employee Assistance Program (EAP) arrangements.
-                    </p>
-
-                    <p>
                         For employees moving across countries and cultures,
                         the transition can involve much more than relocation.
                         It can affect confidence, identity, relationships and
                         how they see their place in the workplace.
-                    </p>
-
-                    <p>
+                    
                         That's the kind of transition I understand personally,
                         and it's part of what I bring to this work - alongside
                         experience across leadership, management and coaching.

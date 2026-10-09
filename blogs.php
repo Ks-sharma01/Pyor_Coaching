@@ -11,11 +11,25 @@ include "includes/header.php";
           <div class="col-lg-12">
             <h1>Trending Now!</h1>
             <p>See what's new on our blogs</p>
-            <p class="text-white">Check out the cool stuff that we have to unleash your potential! We at Jyoti Sapra are always at your side.</p>  
       </div>
     </div>
   </div>
 </section>
+
+<!-- Introduction -->
+    <div class="row justify-content-center mt-3">
+      <div class="col-lg-9">
+
+        <div class="bg-white p-2 p-md-2 shadow-sm">
+
+          <p class="mb-0" style="text-align: justify;">
+            Check out the cool stuff that we have to unleash your potential! We at Jyoti Sapra are always at your side.
+          </p>
+
+        </div>
+
+      </div>
+    </div>
 
 <section class="site-section" id="blog-section">
   <div class="container">
@@ -26,43 +40,37 @@ include "includes/header.php";
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="">
+      <div class="col-md-6 mb-4" data-aos="fade-up">
         <div class="d-lg-flex blog-entry">
-          <figure class="mr-4">
-          <img src="<?= BASE_URL ?>images/coach_2_sm.jpg" alt="Image" class="img-fluid rounded">
-          </figure>
           <div class="blog-entry-text">
+            <div class="icon"><img src="<?= BASE_URL ?>images/man.png" alt="Icon" class="img-fluid mb-2" style="height: 90px; width: 90px;"></div>
             <h3><a href="<?= BASE_URL ?>handle_pressure.php">How To Handle High-Pressure Situations</a></h3>
-            <span class="post-meta mb-3 d-block">July 14, 2026</span>
+            <span class="post-meta mb-2 d-block">July 14, 2026</span>
             <p style="text-align: justify;">High-pressure situations can be stressful but don't have to be overwhelming. With the right strategies, you can navigate these challenges with confidence and ease. Here are some tips to help you handle high-pressure situations...</p>
-            <p><a href="<?= BASE_URL ?>handle_pressure.php">Read More..</a></p>
+            <a class="btn btn-primary mt-2 text-white" href="<?= BASE_URL ?>handle_pressure.php">Read More..</a>
           </div>
         </div>
       </div>
       <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
         <div class="d-lg-flex blog-entry">
-          <figure class="mr-4">
-            <img src="<?= BASE_URL ?>images/coach_1_sm.jpg" alt="Image" class="img-fluid rounded">
-          </figure>
           <div class="blog-entry-text">
+            <div class="icon"><img src="<?= BASE_URL ?>images/mentoring.png" alt="Icon" class="img-fluid mb-2" style="height: 90px; width: 90px;"></div>
             <h3><a href="<?= BASE_URL ?>need_hour.php">Executive Coaching - Need of the Hour</a></h3>
-            <span class="post-meta mb-3 d-block">October 02, 2026</span>
+            <span class="post-meta mb-2 d-block">October 02, 2026</span>
             <p style="text-align: justify;">Executives’ roles have become very demanding and require them to demonstrate sheer alacrity, dexterity and versatility in all facets of their responsibilities, be it people management, planning, strategy development...</p>
-            <p><a href="<?= BASE_URL ?>need_hour.php">Read More..</a></p>
+            <a class="btn btn-primary mt-2 text-white" href="<?= BASE_URL ?>need_hour.php">Read More..</a>
           </div>
         </div>
       </div>
 
-      <div class="col-md-6 mb-2" data-aos="fade-up" data-aos-delay="">
+      <div class="col-md-6 mb-2" data-aos="fade-up">
         <div class="d-lg-flex blog-entry">
-          <figure class="mr-4">
-            <img src="<?= BASE_URL ?>images/coach_3_sm.jpg" alt="Image" class="img-fluid rounded">
-          </figure>
           <div class="blog-entry-text">
+            <div class="icon"><img src="<?= BASE_URL ?>images/balance.png" alt="Icon" class="img-fluid mb-2" style="height: 90px; width: 90px;"></div>
             <h3><a href="<?= BASE_URL ?>work_life.php">Work Life Balance</a></h3>
-            <span class="post-meta mb-3 d-block">June 30, 2026</span>
+            <span class="post-meta mb-2 d-block">June 30, 2026</span>
             <p style="text-align: justify;">If you are worn out from work and don’t feel like pursuing your hobby, then you are severely deficient in Vitamin “ME”. You are experiencing the “Balance Syndrome” and the symptoms are very obvious – you are checking emails after work; taking calls beyond business hours; stretching yourself for 11-12 hours to meet your...</p>
-            <p><a href="<?= BASE_URL ?>work_life.php">Read More..</a></p>
+            <a class="btn btn-primary mt-2 text-white" href="<?= BASE_URL ?>work_life.php">Read More..</a>
           </div>
         </div>
       </div>

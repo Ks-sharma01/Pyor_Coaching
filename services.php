@@ -10,17 +10,16 @@ include "includes/header.php";
     <div class="row">
           <div class="col-lg-12">
             <h1>Plotting your path to success</h1>
-            <p>Get the results you want</p>
-            <p class="text-white">Find your inner potential and growth - avail our services</p>
+            <p>Get the results you want. Find your inner potential and growth - avail our services</p>
       </div>
     </div>
   </div>
 </section>
 
 
-<div style="padding-top: 30px;padding-bottom: 30px;">
-    <h3 style="text-align: center;">
-        <span style="color: #373A6D;">
+<div style="padding-top: 20px;padding-bottom: 20px;">
+    <h3 style="text-align: center;" class="p-2">
+        <span style="color: #373A6D; text-align: center;">
             “Inner freedom is not guided by our efforts; it comes from seeing what is true.”
             <br>
         </span>
@@ -28,13 +27,13 @@ include "includes/header.php";
     </h3>
 </div>
 
-<div class="container-fluid bg-light">
+<div class="container-fluid">
     <div class="row g-0 align-items-stretch">
 
         <!-- Left Image -->
         <div class="col-12 col-md-6">
             <img
-                src="<?php BASE_URL; ?>images/executive2.jpg"
+                src="<?php BASE_URL; ?>images/pexels-silverkblack-36733363.jpg"
                 class="img-fluid w-100 h-100"
                 style="object-fit: cover;"
                 alt="Working with coffee and pen">
@@ -42,7 +41,7 @@ include "includes/header.php";
 
         <!-- Right Content -->
         <div class="col-12 col-md-6">
-            <div class="p-4 h-100">
+            <div class="p-2 h-100">
 
                 <h4>
                     <span style="color:#373A6D" class="approach-eyebrow">
@@ -50,7 +49,7 @@ include "includes/header.php";
                     </span>
                 </h4>
 
-                <p style="text-align: justify;">
+                <p style="text-align: justify;" class="py-1">
                     The real objective is to help successful people become even more effective. Effective coaches go to great lengths to emphasise the unique talents and abilities of their clients as well as emphasise their client’s potential.
                 </p>
 
@@ -71,12 +70,12 @@ include "includes/header.php";
     </div>
 </div>
 
-<div class="container-fluid bg-light">
+<div class="container-fluid mt-2">
     <div class="row g-0 align-items-stretch">
 
 
         <div class="col-12 col-md-6">
-            <div class="p-4 h-100">
+            <div class="p-2 h-100">
 
                 <h4>
                     <span style="color:#373A6D" class="approach-eyebrow">
@@ -84,7 +83,7 @@ include "includes/header.php";
                     </span>
                 </h4>
 
-                <p style="text-align: justify;">
+                <p style="text-align: justify;" class="py-1">
                     Leadership coaching is being used as a developmental device for high-potential employees and executives to achieve better results and to be able to become a leader.
                 </p>
 
@@ -98,7 +97,7 @@ include "includes/header.php";
 
         <div class="col-12 col-md-6">
             <img
-                src="<?php BASE_URL; ?>images/leader1.jpg"
+                src="<?php BASE_URL; ?>images/pexels-pavel-danilyuk-7869095.jpg"
                 class="img-fluid w-100 h-100"
                 style="object-fit: cover;"
                 alt="Leading">
@@ -117,13 +116,13 @@ include "includes/header.php";
     </h3>
 </div>
 
-<div class="container-fluid bg-light">
+<div class="container-fluid">
     <div class="row g-0 align-items-stretch">
 
         <!-- Left Image -->
         <div class="col-12 col-md-6">
             <img
-                src="<?php BASE_URL; ?>images/life.jpg"
+                src="<?php BASE_URL; ?>images/pexels-silverkblack-36729385.jpg"
                 class="img-fluid w-100 h-100"
                 style="object-fit: cover;"
                 alt="Working with coffee and pen">
@@ -131,7 +130,7 @@ include "includes/header.php";
 
         <!-- Right Content -->
         <div class="col-12 col-md-6">
-            <div class="p-4 h-100">
+            <div class="p-2 h-100">
 
                 <h4>
                     <span style="color:#373A6D" class="approach-eyebrow">
@@ -139,7 +138,7 @@ include "includes/header.php";
                     </span>
                 </h4>
 
-                <p style="text-align: justify;">
+                <p style="text-align: justify;" class="py-1">
                     Life Coaching is a designed alliance between coach and client where the coaching relationship continually gives all the power back to you, the client. </p>
 
                 <p style="text-align: justify;">
@@ -154,7 +153,7 @@ include "includes/header.php";
     </div>
 </div>
 
-<div style="padding-top: 30px;padding-bottom: 30px;">
+<div style="padding-top: 30px;padding-bottom: 30px;" class="px-1">
     <h3 style="text-align: center;">
         <span style="color: #373A6D;">
             “A leader is one who knows the way, goes the way, and shows the way”

@@ -12,18 +12,18 @@ include "includes/header.php";
                 <h1>Paint Your Own Rainbow</h1>
                 <p>35 stories. Seven colours. Many moments that may feel familiar.</p>
 
-                <div class="d-flex flex-column flex-sm-row justify-content-center gap-2 mb-1">
+                <div class="book-hero-actions">
 
                     <!-- Buy the Book Dropdown -->
-                    <div class="dropdown">
-                        <button class="btn btn-primary dropdown-toggle px-3 py-2"
+                    <div class="dropdown book-hero-actions__item">
+                        <button class="btn dropdown-toggle book-hero-actions__button book-hero-actions__button--primary"
                             type="button"
                             data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            BUY THE BOOK
+                            Buy the Book
                         </button>
 
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu book-hero-actions__menu">
                             <li>
                                 <a class="dropdown-item"
                                     href="https://www.amazon.in/Paint-Your-RAINBOW-Jyoti-Sapra-ebook/dp/B0HJNVXNX7"
@@ -45,12 +45,12 @@ include "includes/header.php";
                     </div>
 
                     <!-- Read Excerpt -->
-                    <div class="flex-fill">
-                        <a href="https://www.amazon.in/kindle-dbs/hz/subscribe/ku?ref=dbs_p_ebk_r00_pbcb_diupu0&passThroughAsin=B0HJNVXNX7"
+                    <div class="book-hero-actions__item">
+                        <a href="<?= BASE_URL ?>book_summary.php"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="btn btn-primary px-3 py-2">
-                            READ AND EXCERPT
+                            class="btn book-hero-actions__button book-hero-actions__button--secondary">
+                            Read an Excerpt
                         </a>
                     </div>
 
@@ -80,27 +80,23 @@ include "includes/header.php";
             </div>
         </div>
 
+        <div class="row justify-content-center mb-3">
+      <div class="col-lg-9">
 
-        <!-- Introduction -->
-        <div class="row justify-content-center text-center">
-            <div class="col-lg-8">
+        <div class="bg-white p-2 p-md-4 shadow-sm">
 
-                <p>
-                    I didn't write this book to tell you how to live your life.
-                </p>
+          <p class="mb-0" style="text-align: justify;">
+            I didn't write this book to tell you how to live your life.
+            I wrote it because sometimes a story can make us see
+            something in ourselves that advice cannot.
+            The stories in <em>Paint Your Own Rainbow</em> are fictional.
+            But the emotions are real.
+          </p>
 
-                <p>
-                    I wrote it because sometimes a story can make us see
-                    something in ourselves that advice cannot.
-                </p>
-
-                <p>
-                    The stories in <em>Paint Your Own Rainbow</em> are fictional.
-                    But the emotions are real.
-                </p>
-
-            </div>
         </div>
+
+      </div>
+    </div>
 
 
         <!-- Story Examples -->
@@ -108,7 +104,7 @@ include "includes/header.php";
 
             <div class="col-12 col-md-6">
                 <div class="card h-100 border-1">
-                    <div class="card-body p-4 d-flex">
+                    <div class="card-body p-2 d-flex">
                         <span class="fw-bold mr-3"
                             style="color:#F2A03A;">
                             <img src="images/book1.png" height="20px"/>
@@ -124,7 +120,7 @@ include "includes/header.php";
 
             <div class="col-12 col-md-6">
                 <div class="card h-100 border-1">
-                    <div class="card-body p-4 d-flex">
+                    <div class="card-body p-2 d-flex">
                         <span class="fw-bold mr-3"
                             style="color:#F2A03A;">
                             <img src="images/book1.png" height="20px"/>
@@ -141,7 +137,7 @@ include "includes/header.php";
 
             <div class="col-12 col-md-6">
                 <div class="card h-100 border-1">
-                    <div class="card-body p-4 d-flex">
+                    <div class="card-body p-2 d-flex">
                         <span class="fw-bold mr-3"
                             style="color:#F2A03A;">
                             <img src="images/book1.png" height="20px" />
@@ -157,7 +153,7 @@ include "includes/header.php";
 
             <div class="col-12 col-md-6">
                 <div class="card h-100 border-1">
-                    <div class="card-body p-4 d-flex">
+                    <div class="card-body p-2 d-flex">
                         <span class="fw-bold mr-3"
                             style="color:#F2A03A;">
                             <img src="images/book1.png" height="20px" />
@@ -174,7 +170,7 @@ include "includes/header.php";
 
             <div class="col-12">
                 <div class="card border-1">
-                    <div class="card-body p-4 d-flex justify-content-center">
+                    <div class="card-body p-2 d-flex justify-content-center">
                         <span class="fw-bold mr-3"
                             style="color:#F2A03A;">
                             <img src="images/book1.png" height="20px" />
@@ -191,24 +187,23 @@ include "includes/header.php";
         </div>
 
 
-        <!-- Closing -->
-        <div class="row justify-content-center text-center">
-            <div class="col-lg-8">
+        <div class="row justify-content-center mb-3">
+      <div class="col-lg-9">
 
-                <p>
-                    And the moment when someone finally realises that
-                    waiting is also a choice.
-                </p>
+        <div class="bg-white p-2 p-md-4 shadow-sm">
 
-                <p>
-                    You may recognise yourself in one of them.
-                    You may recognise someone you know.
-                    Or perhaps a part of yourself you hadn't thought
-                    about for a while.
-                </p>
+          <p class="mb-0" style="text-align: justify;">
+            And the moment when someone finally realises that
+            waiting is also a choice. You may recognise yourself in one of them.
+            You may recognise someone you know.
+            Or perhaps a part of yourself you hadn't thought
+            about for a while.
+          </p>
 
-            </div>
         </div>
+
+      </div>
+    </div>
 
     </div>
 </section>
@@ -280,7 +275,7 @@ include "includes/header.php";
 <section class="py-2 py-md-2">
     <div class="container">
 
-        <div class="row g-0 align-items-stretch">
+        <div class="row g-0 bg-light shadow-sm">
 
             <!-- Left Image -->
             <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
@@ -301,9 +296,9 @@ include "includes/header.php";
 
 
             <!-- Right Content -->
-            <div class="col-12 col-md-6 bg-light shadow-sm">
+            <div class="col-12 col-md-6">
 
-                <div class="p-4 p-sm-5 h-100 d-flex flex-column justify-content-center">
+                <div class="px-2 px-sm-3 py-4 h-100 d-flex flex-column justify-content-center">
 
                     <!-- Heading -->
                     <!-- <h4 class="mb-3"> -->
@@ -349,56 +344,41 @@ include "includes/header.php";
     </div>
 </section>
 
-<section class="py-3">
+<section class="reading-rhythm">
     <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12 col-md-4 mb-4 mb-md-0">
+                <h2 class="reading-rhythm__heading">
+                    A book to read <em>slowly.</em>
+                </h2>
+                <div class="reading-rhythm__rule" aria-hidden="true"></div>
+            </div>
 
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-10 col-lg-8">
-
-                <div class="text-center">
-
-                    <!-- Heading -->
-                    <h2 class="mb-3"
-                        style="color: black;">
-                        A book to read slowly.
-                    </h2>
-
-                    <!-- Decorative Line -->
-                    <div class="mx-auto mb-2"
-                        style="width:60px; height:3px; background:#F2A03A;">
-                    </div>
-
-                    <!-- Content -->
-                    <div class="fs-5 lh-lg">
-
-                        <p class="mb-2">
-                            One story before bed.
-                        </p>
-
-                        <p class="mb-2">
-                            One with your morning coffee.
-                        </p>
-
-                        <p class="mb-2">
-                            A story chosen at random.
-                        </p>
-
-                        <p class="mb-2">
-                            A story shared with someone you care about.
-                        </p>
-
-                        <p class="mt-2 mb-0">
-                            Or simply a book you return to when you need
-                            to look at something differently.
-                        </p>
-
-                    </div>
-
-                </div>
-
+            <div class="col-12 col-md-6">
+                <ol class="reading-rhythm__list">
+                    <li>
+                        <span class="reading-rhythm__number">01</span>
+                        <span>One story before bed.</span>
+                    </li>
+                    <li>
+                        <span class="reading-rhythm__number">02</span>
+                        <span>One with your morning coffee.</span>
+                    </li>
+                    <li>
+                        <span class="reading-rhythm__number">03</span>
+                        <span>A story chosen at random.</span>
+                    </li>
+                    <li>
+                        <span class="reading-rhythm__number">04</span>
+                        <span>A story shared with someone you care about.</span>
+                    </li>
+                    <li class="reading-rhythm__final">
+                        <span class="reading-rhythm__number">05</span>
+                        <span>Or simply a book you return to when you need to look at something differently.</span>
+                    </li>
+                </ol>
             </div>
         </div>
-
     </div>
 </section>
 
@@ -409,7 +389,7 @@ include "includes/header.php";
             <div class="col-12 col-md-10 col-lg-8">
 
                 <!-- Main Message -->
-                <p class="mb-2" style="line-height:1.8;">
+                <p class="book-closing-message mb-3">
                     <em>
                         Paint Your Own Rainbow is about the things we feel,
                         the choices we make, the questions we avoid and the
@@ -418,7 +398,7 @@ include "includes/header.php";
                 </p>
 
                 <!-- Closing Thought -->
-                <p class="mb-2" style="color:#373A6D;">
+                <p class="book-closing-pullquote mb-3">
                     <em>
                         Perhaps one of these stories is waiting to become yours.
                     </em>
@@ -430,7 +410,8 @@ include "includes/header.php";
                 </div>
 
                 <!-- Buttons -->
-                <div class="d-flex flex-row justify-content-center align-items-center gap-2 mb-1 w-100">
+                <div class="d-flex flex-row justify-content-center align-items-center mb-2 w-100"
+                    style="column-gap: 8px;">
 
                     <!-- Buy the Book Dropdown -->
                     <div class="dropdown flex-fill">
@@ -464,7 +445,7 @@ include "includes/header.php";
 
                     <!-- Read Excerpt -->
                     <div class="flex-fill">
-                        <a href="https://www.amazon.in/kindle-dbs/hz/subscribe/ku?ref=dbs_p_ebk_r00_pbcb_diupu0&passThroughAsin=B0HJNVXNX7"
+                        <a href="<?= BASE_URL ?>book_summary.php"
                             target="_blank"
                             rel="noopener noreferrer"
                             class="btn px-3 px-sm-4 py-2 w-100"

@@ -880,7 +880,7 @@ body:after {
     background: #373A6D;
     color: #fff !important;
     border: 2px solid #373A6D;
-    padding: 12px 1px;
+    padding: 12px 12px;
     border-radius: 5px;
     font-size: 14px;
     font-weight: 600;
@@ -975,6 +975,8 @@ body:after {
     .approach-btn {
         width: 100%;
         text-align: center;
+         border-radius: 5px;
+        font-size: 14px;
     }
 }
 

@@ -8,7 +8,7 @@ include "includes/header.php";
     <!-- Page Title -->
     <div class="border-bottom pb-3 mb-4">
 
-        <h1 class="display-4 mb-2" style="color:#373A6D;">
+        <h1 style="color:#373A6D;" class="font-weight-bold">
             Paint Your Own Rainbow
         </h1>
 

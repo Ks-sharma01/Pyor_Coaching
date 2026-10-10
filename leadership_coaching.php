@@ -34,10 +34,10 @@ include "includes/header.php";
 <div style="padding: 5px 5px 5px 10px">
     <div style="padding-top: 20px;padding-bottom: 20px;">
         <h3 style="text-align: center;">
-            <span style="color: #373A6D;">“The ear of the leader must ring with the voices of the people”
+            <em style="color: #373A6D;">“The ear of the leader must ring with the voices of the people”
                 <br>
-            </span>
-            <span style="color: #373A6D;">Woodrow Wilson</span>
+            </em>
+            <span style="color: #373A6D; font-size: 20px">- Woodrow Wilson</span>
         </h3>
     </div>
 </div>
@@ -92,12 +92,12 @@ include "includes/header.php";
 </div>
 
 <div style="padding: 10px 5px 5px 10px">
-    <div style="padding-top: 20px;padding-bottom: 20px;">
+    <div style="padding-top: 10px;padding-bottom: 20px;">
         <h3 style="text-align: center;">
-            <span style="color: #373A6D;">“That’s the beauty of coaching. You get to touch lives. You get to make a difference”
+            <em style="color: #373A6D;">“That’s the beauty of coaching. You get to touch lives. You get to make a difference”
                 <br>
-            </span>
-            <span style="color: #373A6D;">Morgan Wootten</span>
+            </em>
+            <span style="color: #373A6D; font-size: 20px">- Morgan Wootten</span>
         </h3>
     </div>
 </div>

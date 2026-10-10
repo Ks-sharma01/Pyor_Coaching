@@ -9,7 +9,7 @@ include "includes/header.php";
 <section class="site-blocks-cover">
   <div class="container">
     <div class="row">
-          <div class="col-lg-12 ">
+          <div class="col-lg-12">
             <h1>Executive Coaching</h1>
             <p>Open Your Path To Success</p>
       </div>
@@ -36,10 +36,10 @@ include "includes/header.php";
 <div style="padding: 5px 5px 5px 10px">
     <div style="padding-top: 20px;padding-bottom: 20px;">
         <h3 style="text-align: center;">
-            <span style="color: #373A6D;">“All coaching is, is taking a player where he can’t take himself”
+            <em style="color: #373A6D;">“All coaching is, is taking a player where he can’t take himself”
                 <br>
-            </span>
-            <span style="color: #373A6D;">Bill McCartney</span>
+            </em>
+            <span style="color: #373A6D; font-size: 20px">- Bill McCartney</span>
         </h3>
     </div>
 
@@ -130,10 +130,10 @@ include "includes/header.php";
 <div style="padding: 10px 5px 5px 10px">
     <div style="padding-top: 20px;padding-bottom: 20px;">
         <h3 style="text-align: center;">
-            <span style="color: #373A6D;">“Coaching is a profession of love. You can’t coach people unless you love them”
+            <em style="color: #373A6D;">“Coaching is a profession of love. You can’t coach people unless you love them”
                 <br>
-            </span>
-            <span style="color: #373A6D;">Eddy Robinson</span>
+            </em>
+            <span style="color: #373A6D; font-size: 20px">- Eddy Robinson</span>
         </h3>
     </div>
 </div>

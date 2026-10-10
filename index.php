@@ -6,14 +6,14 @@ include "includes/header.php";
 ?>
 
 <section class="site-blocks-cover">
-  <div class="container">
-    <div class="row">
-          <div class="col-lg-12">
-            <h1>I am <span class="typed-words"></span></h1>
-            <p>Paint Your Own Rainbow</p>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>I am <span class="typed-words"></span></h1>
+                <p>Paint Your Own Rainbow</p>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 
 <!-- Introduction -->
@@ -31,58 +31,13 @@ include "includes/header.php";
       </div>
     </div>
 
-<section class="site-section coaching-benefits" id="about-section" aria-labelledby="benefits-heading">
-  <div class="container">
-    <div class="row justify-content-center mb-4">
-      <div class="col-lg-9 text-center">
-        <h2 class="text-black mb-0" id="benefits-heading">Hiring a coach brings many wonderful benefits, including</h2>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-6 col-lg-3 mb-4 mb-lg-0">
-        <div class="benefit-item">
-          <div class="benefit-chart" style="--percent: 79" role="img" aria-label="79 percent">
-            <span>79%</span>
-          </div>
-          <h3>Improved Work Performance</h3>
-        </div>
-      </div>
-      <div class="col-6 col-lg-3 mb-4 mb-lg-0">
-        <div class="benefit-item">
-          <div class="benefit-chart" style="--percent: 75" role="img" aria-label="75 percent">
-            <span>75%</span>
-          </div>
-          <h3>Improved Communication Skills</h3>
-        </div>
-      </div>
-      <div class="col-6 col-lg-3 mb-4 mb-lg-0">
-        <div class="benefit-item">
-          <div class="benefit-chart" style="--percent: 80" role="img" aria-label="80 percent">
-            <span>80%</span>
-          </div>
-          <h3>Improved Self Confidence</h3>
-        </div>
-      </div>
-      <div class="col-6 col-lg-3 mb-4 mb-lg-0">
-        <div class="benefit-item">
-          <div class="benefit-chart" style="--percent: 73" role="img" aria-label="73 percent">
-            <span>73%</span>
-          </div>
-          <h3>Improved Relationships</h3>
-        </div>
-      </div>
-    </div>
-
-    <p class="text-center">Maximize your potential and unlock your source of productivity.</p>
-  </div>
-</section>
-
 <section class="coaching-approach" aria-labelledby="approach-heading">
     <div class="container">
-
+       <p class="approach-eyebrow mb-2">
+              OUR APPROACH
+        </p>
         <div class="row align-items-center g-0">
-
+            
             <!-- Image -->
             <div class="col-12 col-lg-6">
                 <div class="approach-image-wrapper">
@@ -97,11 +52,7 @@ include "includes/header.php";
             <div class="col-12 col-lg-6">
                 <div class="coaching-approach-content">
 
-                    <p class="approach-eyebrow mb-2">
-                        OUR APPROACH
-                    </p>
-
-                    <h2 id="approach-heading" class="approach-title mb-4">
+                    <h2 id="approach-heading" class="approach-title mb-2">
                         A space to find your own way forward
                     </h2>
 
@@ -218,6 +169,53 @@ include "includes/header.php";
   </div>
 </section>
 
+<section class="site-section coaching-benefits" id="about-section" aria-labelledby="benefits-heading">
+  <div class="container">
+    <div class="row justify-content-center mb-4">
+      <div class="col-lg-9 text-center">
+        <h2 class="text-black mb-0" id="benefits-heading">Hiring a coach brings many wonderful benefits, including</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+        <div class="benefit-item">
+          <div class="benefit-chart" style="--percent: 79" role="img" aria-label="79 percent">
+            <span>79%</span>
+          </div>
+          <h3>Improved Work Performance</h3>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+        <div class="benefit-item">
+          <div class="benefit-chart" style="--percent: 75" role="img" aria-label="75 percent">
+            <span>75%</span>
+          </div>
+          <h3>Improved Communication Skills</h3>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+        <div class="benefit-item">
+          <div class="benefit-chart" style="--percent: 80" role="img" aria-label="80 percent">
+            <span>80%</span>
+          </div>
+          <h3>Improved Self Confidence</h3>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+        <div class="benefit-item">
+          <div class="benefit-chart" style="--percent: 73" role="img" aria-label="73 percent">
+            <span>73%</span>
+          </div>
+          <h3>Improved Relationships</h3>
+        </div>
+      </div>
+    </div>
+
+    <p class="text-center">Maximize your potential and unlock your source of productivity.</p>
+  </div>
+</section>
+
 <section class="site-section bg-primary" id="services-section">
   <div class="container">
     <div class="row mb-4 justify-content-center">
@@ -228,28 +226,57 @@ include "includes/header.php";
 
     <div class="nonloop-block-13 owl-style owl-style-md owl-carousel">
       <div class="service bg-white">
-        <div class="icon"><img src="<?= BASE_URL ?>images/man.png" alt="Icon" class="img-fluid" style="height: 90px; width: 90px;"></div>
-        <h3 class="text-black my-2">How To Handle High-Pressure Situations</h3>
-        <p>July 14, 2026</p>
+        <div class="icon d-flex align-items-center mb-2">
+            <img src="<?= BASE_URL ?>images/man.jpg"
+                alt="High-pressure situations"
+                class="img-fluid flex-shrink-0 me-3"
+                style="height: 90px; width: 90px; object-fit: cover;">
+            <div>
+              <h3 class="text-black my-0">
+                How To Handle High-Pressure Situations
+              </h3>
+              <p>July 14, 2026</p>
+            </div>
+        </div>
         <p style="text-align: justify">High-pressure situations can be stressful but don't have to be overwhelming. With the right strategies, you can navigate these challenges with confidence and ease. Here are some tips to help you handle high-pressure situations...</p>
         <a class="btn btn-primary mt-2" href="<?= BASE_URL ?>handle_pressure.php">Read More</a>
 
       </div>
 
       <div class="service bg-white">
-        <div class="icon"><img src="<?= BASE_URL ?>images/mentoring.png" alt="Icon" class="img-fluid" style="height: 90px; width: 90px;"></div>
-        <h3 class="text-black my-2">Executive Coaching - Need of the Hour</h3>
-        <p>October 02, 2026</p>
+        <div class="icon d-flex align-items-center mb-2">
+            <img src="<?= BASE_URL ?>images/mentoring.jpg"
+                alt="High-pressure situations"
+                class="img-fluid flex-shrink-0 me-3"
+                style="height: 90px; width: 90px; object-fit: cover;">
+
+            <div>
+              <h3 class="text-black my-0">
+                  Executive Coaching - Need of the Hour
+              </h3>
+              <p>October 02, 2026</p>
+            </div>
+        </div>
         <p style="text-align: justify">Executives roles have become very demanding and require them to demonstrate sheer alacrity, dexterity and versatility in all facets of their responsibilities, be it people management, planning, strategy...</p>
         <a class="btn btn-primary mt-2" href="<?= BASE_URL ?>need_hour.php">Read More</a>
 
       </div>
 
       <div class="service  bg-white">
-        <div class="icon"><img src="<?= BASE_URL ?>images/balance.png" alt="Icon" class="img-fluid" style="height: 90px; width: 90px;"></div>
-        <h3 class="text-black my-2">Work Life Balance</h3>
-        <p>June 30, 2026</p>
-        <p style="text-align: justify">If you are worn out from work and don’t feel like pursuing your hobby, then you are severely deficient in Vitamin “ME”. You are experiencing the “Balance Syndrome” and the symptoms are very obvious – you are checking emails after work; taking calls...</p>
+        <div class="icon d-flex align-items-center mb-2">
+            <img src="<?= BASE_URL ?>images/balance.jpg"
+                alt="High-pressure situations"
+                class="img-fluid flex-shrink-0 me-3"
+                style="height: 90px; width: 90px; object-fit: cover;">
+
+            <div>
+              <h3 class="text-black my-0">
+                  Work Life Balance
+              </h3>
+              <p>June 30, 2026</p>
+            </div>
+        </div>
+        <p style="text-align: justify">If you are worn out from work and don’t feel like pursuing your hobby, then you are severely deficient in Vitamin “ME”. You are experiencing the “Balance Syndrome” and the symptoms are very obvious...</p>
         <a class="btn btn-primary mt-2" href="<?= BASE_URL ?>work_life.php">Read More</a>
 
       </div>

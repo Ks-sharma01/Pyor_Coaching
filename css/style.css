@@ -149,7 +149,7 @@ body:after {
 
 @media (min-width: 768px) {
   .site-section {
-    padding: 3em 0;
+    padding: 2em 0;
   }
 }
 
@@ -209,6 +209,7 @@ body:after {
 
 .coaching-approach {
   background: #eaf0ee;
+  margin-top: 10px;
 }
 
 .coaching-approach-image {
@@ -217,12 +218,10 @@ body:after {
   height: 100%;
   min-height: 480px;
   object-fit: cover;
-  /* border-radius: 15px; */
 }
 
 .coaching-approach-content {
   max-width: 760px;
-  /* color: rgb(8, 7, 7); */
   padding: 64px clamp(24px, 6vw, 88px);
 }
 
@@ -239,6 +238,7 @@ body:after {
   color: #373A6D;
   font-size: 1.8rem;
   font-weight: 700;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -374,16 +374,15 @@ body:after {
 }
 
 .approach-image-wrapper::after {
-    content: "";
+     content: "";
     position: absolute;
-    right: 0;
     bottom: 0;
-    width: 100px;
-    height: 100px;
-    background: #373A6D;
-    border-radius: 50%;
-    transform: translate(25px, 25px);
-    z-index: 0;
+    right: 0;
+    width: 120px;
+    height: 120px;
+    border-bottom: 5px solid #F2A03A;
+    border-right: 5px solid #F2A03A;
+    z-index: 1;
 }
 .approach-image-wrapper1::after {
     content: "";
@@ -780,19 +779,19 @@ body:after {
     padding: 0 15px 20px 60px;
 }
 
-.approach-eyebrow {
+/* .approach-eyebrow {
     color: #F2A03A;
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
-}
+} */
 
 .approach-title {
     color: #373A6D;
-    font-size: clamp(1rem, 3.5vw, 3rem);
+    font-size: clamp(0.875rem, 2.5vw, 2rem);
     line-height: 1.05;
-    font-weight: 600;
+    font-weight: 500;
     max-width: 550px;
 }
 
@@ -881,9 +880,9 @@ body:after {
     background: #373A6D;
     color: #fff !important;
     border: 2px solid #373A6D;
-    padding: 12px 22px;
-    border-radius: 30px;
-    font-size: 15px;
+    padding: 12px 1px;
+    border-radius: 5px;
+    font-size: 14px;
     font-weight: 600;
     transition: all 0.3s ease;
 }
@@ -926,8 +925,8 @@ body:after {
 @media (max-width: 575.98px) {
 
     .coaching-approach {
-        padding-top: 35px !important;
-        padding-bottom: 35px !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
     }
 
     .approach-image-wrapper {
@@ -946,8 +945,9 @@ body:after {
     }
 
     .approach-image-wrapper::after {
-        width: 65px;
-        height: 65px;
+        width: 70px;
+        height: 70px;
+        border-width: 3px;
     }
 
     .coaching-approach-content {
@@ -955,7 +955,7 @@ body:after {
     }
 
     .approach-title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .approach-intro {
@@ -1729,7 +1729,8 @@ body:after {
   gap: .75rem;
   width: 100%;
   max-width: 440px;
-  margin: 1.5rem 0 0;
+  margin: 1rem 0 0;
+  padding-bottom: 6px;
 }
 
 .book-hero-actions__item {
@@ -1816,7 +1817,7 @@ body:after {
 
   .site-blocks-cover,
   .site-blocks-cover>.container>.row {
-    min-height: 300px;
+    min-height: 200px;
     height: auto;
   }
 
@@ -1953,6 +1954,39 @@ body:after {
 
 .site-blocks-vs .country {
   color: rgba(255, 255, 255, 0.7);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon img {
+    flex-shrink: 0;
+}
+
+.icon h3 {
+    margin: 0;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    line-height: 1.4;
+}
+
+/* Mobile responsive */
+@media (max-width: 576px) {
+    .icon {
+        gap: 15px;
+        align-items: flex-start;
+    }
+
+    .icon img {
+        width: 65px !important;
+        height: 65px !important;
+    }
+
+    .icon h3 {
+        font-size: 1.1rem;
+    }
 }
 
 .match-entry {
@@ -3146,7 +3180,7 @@ body:after {
 
 @media (max-width: 767.98px) {
   .reading-rhythm {
-    padding: 3rem 0;
+    padding: 1rem 0;
   }
 
   .reading-rhythm__heading {
@@ -4010,7 +4044,7 @@ figure figcaption {
 
     .rainbow-themes {
         padding-top: 35px !important;
-        padding-bottom: 35px !important;
+        padding-bottom: 15px !important;
     }
 
     .rainbow-grid {
@@ -4329,4 +4363,51 @@ body {
 
 .book-nav-link.active {
     background: #373A6D;
+}
+
+.scroll-to-top {
+  position: fixed;
+  right: 24px;
+  bottom: 88px;
+  z-index: 999;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border: 0;
+  border-radius: 50%;
+  background: #373a6d;
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(16px);
+  transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
+  cursor: pointer;
+}
+
+.scroll-to-top:hover,
+.scroll-to-top:focus-visible {
+  background: #f2a03a;
+  color: #fff;
+}
+
+.scroll-to-top.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+@media (max-width: 575.98px) {
+  .scroll-to-top {
+    right: 24px;
+    bottom: 88px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-to-top {
+    transition: none;
+  }
 }

@@ -5,7 +5,7 @@ include "includes/header.php";
 
 ?>
 
-<section class="site-blocks-cover">
+<section class="site-blocks-cover py-2">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -83,7 +83,7 @@ include "includes/header.php";
         <div class="row justify-content-center mb-3">
       <div class="col-lg-9">
 
-        <div class="bg-white p-2 p-md-4 shadow-sm">
+        <div class="bg-white p-2 p-md-3 shadow-sm">
 
           <p class="mb-0" style="text-align: justify;">
             I didn't write this book to tell you how to live your life.
@@ -100,28 +100,30 @@ include "includes/header.php";
 
 
         <!-- Story Examples -->
-        <div class="row g-2 mb-3">
+        <div class="row mx-0 mb-3">
 
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 px-0">
                 <div class="card h-100 border-1">
                     <div class="card-body p-2 d-flex">
-                        <span class="fw-bold mr-3"
+                        <span class="fw-bold mr-2"
                             style="color:#F2A03A;">
                             <img src="images/book1.png" height="20px"/>
                         </span>
 
                         <p class="mb-0">
-                            A woman who keeps putting herself last.
+                            <!-- A woman who keeps putting herself last. -->
+                             Someone who has spent years trying to live up
+                            to an idea of who they should be.
                         </p>
                     </div>
                 </div>
             </div>
 
 
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 px-0">
                 <div class="card h-100 border-1">
                     <div class="card-body p-2 d-flex">
-                        <span class="fw-bold mr-3"
+                        <span class="fw-bold mr-2"
                             style="color:#F2A03A;">
                             <img src="images/book1.png" height="20px"/>
                         </span>
@@ -135,10 +137,10 @@ include "includes/header.php";
             </div>
 
 
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 px-0">
                 <div class="card h-100 border-1">
                     <div class="card-body p-2 d-flex">
-                        <span class="fw-bold mr-3"
+                        <span class="fw-bold mr-2"
                             style="color:#F2A03A;">
                             <img src="images/book1.png" height="20px" />
                         </span>
@@ -151,27 +153,26 @@ include "includes/header.php";
             </div>
 
 
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 px-0">
                 <div class="card h-100 border-1">
                     <div class="card-body p-2 d-flex">
-                        <span class="fw-bold mr-3"
+                        <span class="fw-bold mr-2"
                             style="color:#F2A03A;">
                             <img src="images/book1.png" height="20px" />
                         </span>
 
                         <p class="mb-0">
-                            Someone who has spent years trying to live up
-                            to an idea of who they should be.
+                            A woman who keeps putting herself last.
                         </p>
                     </div>
                 </div>
             </div>
 
 
-            <div class="col-12">
+            <div class="col-12 px-0">
                 <div class="card border-1">
                     <div class="card-body p-2 d-flex justify-content-center">
-                        <span class="fw-bold mr-3"
+                        <span class="fw-bold mr-2"
                             style="color:#F2A03A;">
                             <img src="images/book1.png" height="20px" />
                         </span>
@@ -190,7 +191,7 @@ include "includes/header.php";
         <div class="row justify-content-center mb-3">
       <div class="col-lg-9">
 
-        <div class="bg-white p-2 p-md-4 shadow-sm">
+        <div class="bg-white p-2 p-md-3 shadow-sm">
 
           <p class="mb-0" style="text-align: justify;">
             And the moment when someone finally realises that
@@ -212,7 +213,7 @@ include "includes/header.php";
     <div class="one-col column-block clearfix no-background">
         <div class="be-custom-column-pad" style="padding-top:10px;padding-bottom:10px;">
 
-            <h3 style="text-align:center;">
+            <h3 style="text-align:center;" class="px-2">
                 <span style="color:#373A6D;">Seven colours. Seven themes. 35 stories.</span>
             </h3>
             <section class="rainbow-themes py-2">
@@ -266,7 +267,7 @@ include "includes/header.php";
                 </div>
             </section>
         </div>
-        <p style="text-align:center;">
+        <p style="text-align:center; padding: 0 2px 2px 2px;">
             Five stories sit within each colour, bringing together 35 different moments, choices and emotions.
         </p>
     </div>

@@ -16,7 +16,7 @@ include "includes/header.php";
   </div>
 </section>
 
-<div class="container-fluid mt-2">
+<div class="container-fluid mt-4">
     <div class="row g-0">
 
         <!-- Left Image -->

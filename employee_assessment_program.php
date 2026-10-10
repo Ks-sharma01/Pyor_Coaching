@@ -35,10 +35,10 @@ include "includes/header.php";
 <div style="padding: 5px 5px 5px 10px">
     <div style="padding-top: 20px;padding-bottom: 20px;">
         <h3 style="text-align: center;">
-            <span style="color: #373A6D;">“A leader is best when people barely know he exists, when his work is done, his aim fulfilled, they will say: We did it ourselves”
+            <em style="color: #373A6D;">“A leader is best when people barely know he exists, when his work is done, his aim fulfilled, they will say: We did it ourselves”
                 <br>
-            </span>
-            <span style="color: #373A6D;">Lao Tze</span>
+            </em>
+            <span style="color: #373A6D; font-size: 20px">- Lao Tze</span>
         </h3>
     </div>
 </div>
@@ -134,10 +134,10 @@ include "includes/header.php";
 <div style="padding: 10px 5px 5px 10px">
     <div style="padding-top: 20px;padding-bottom: 20px;">
         <h3 style="text-align: center;">
-            <span style="color: #373A6D;">“Happiness depends upon ourselves.”
+            <em style="color: #373A6D;">“Happiness depends upon ourselves.”
                 <br>
-            </span>
-            <span style="color: #373A6D;">Aristotle</span>
+            </em>
+            <span style="color: #373A6D; font-size: 20px">- Aristotle</span>
         </h3>
     </div>
 </div>

@@ -49,13 +49,13 @@
       <div class="site-mobile-menu-body"></div>
     </div>
   
-  <header class="site-navbar js-sticky-header site-navbar-target" role="banner" >
+  <header class="site-navbar site-navbar-target" role="banner" >
 
-      <div class="container">
+      <div class="container sticky-top">
         <div class="row align-items-center">
           
           <div class="col-6 col-xl-2">
-            <a href="<?= BASE_URL ?>index.php"><img src="<?= BASE_URL ?>images/pyor_logo.png" height="50px"/></a>
+            <a href="<?= BASE_URL ?>index.php"><img src="<?= BASE_URL ?>images/pyor_logo.png" height="50px" width="auto"/></a>
           </div>
 
           <div class="col-12 col-md-10 d-none d-xl-block">
@@ -94,11 +94,8 @@
       </div>
       
     </header>
-    
-    
-    
-  </div> <!-- .site-wrap -->
-  
+    </div>
+</body>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>
   <script src="js/popper.min.js"></script>
@@ -129,5 +126,3 @@
   });
 </script>
     
-  </body>
-    </html>

@@ -89,7 +89,7 @@ include "includes/header.php";
 
             <!-- Introduction -->
 
-            <p class="lead"
+            <p class="lead mb-2"
                style="color:#373A6D;">
 
                 What if the story that stays with you is not really
@@ -100,7 +100,7 @@ include "includes/header.php";
 
             <!-- About -->
 
-            <section id="about" class="mb-5">
+            <section id="about" class="mb-3">
 
                 <h2 class="h3 font-weight-bold border-bottom pb-2"
                     style="color:#373A6D;">
@@ -140,7 +140,7 @@ include "includes/header.php";
 
             <!-- Book Introduction -->
 
-            <section class="mb-5">
+            <section class="mb-2">
 
                 <div class="media">
 
@@ -192,7 +192,7 @@ include "includes/header.php";
 
             <!-- Stories -->
 
-            <section id="stories" class="mb-5">
+            <section id="stories" class="mb-2">
 
                 <h2 class="h3 font-weight-bold border-bottom pb-2"
                     style="color:#373A6D;">
@@ -249,7 +249,7 @@ include "includes/header.php";
 
             <!-- Seven Colours -->
 
-            <section id="colours" class="mb-5">
+            <section id="colours" class="mb-2">
 
                 <h2 class="h3 font-weight-bold border-bottom pb-2"
                     style="color:#373A6D;">
@@ -357,7 +357,7 @@ include "includes/header.php";
 
             <!-- PYOR Insight -->
 
-            <section id="insight" class="mb-5">
+            <section id="insight" class="mb-2">
 
                 <h2 class="h3 font-weight-bold border-bottom pb-2"
                     style="color:#373A6D;">
@@ -393,7 +393,7 @@ include "includes/header.php";
 
             <!-- Reading -->
 
-            <section id="reading" class="mb-5">
+            <section id="reading" class="mb-2">
 
                 <h2 class="h3 font-weight-bold border-bottom pb-2"
                     style="color:#373A6D;">
@@ -430,7 +430,7 @@ include "includes/header.php";
 
             <!-- Closing -->
 
-            <section class="border-top pt-4 mb-5">
+            <section class="border-top pt-4 mb-2">
 
                 <p>
                     <em>
@@ -474,46 +474,7 @@ include "includes/header.php";
                     class="img-fluid d-block mx-auto mb-3"
                     style="max-height:300px;">
 
-                <hr>
-
-                <dl class="row small mb-0">
-
-                    <dt class="col-5">
-                        Author
-                    </dt>
-
-                    <dd class="col-7">
-                        Jyoti Sapra
-                    </dd>
-
-
-                    <dt class="col-5">
-                        Stories
-                    </dt>
-
-                    <dd class="col-7">
-                        35
-                    </dd>
-
-
-                    <dt class="col-5">
-                        Themes
-                    </dt>
-
-                    <dd class="col-7">
-                        7
-                    </dd>
-
-
-                    <dt class="col-5">
-                        Format
-                    </dt>
-
-                    <dd class="col-7">
-                        Fiction
-                    </dd>
-
-                </dl>
+                
 
             </div>
 
@@ -529,16 +490,54 @@ include "includes/header.php";
 
                 </h6>
 
-                <p class="small text-muted">
+                <p class="small text-muted mb-1">
                     Explore the book and find out where you can
                     purchase your copy.
                 </p>
 
-                <a href="<?= BASE_URL ?>book.php"
+                <!-- <a href="<?= BASE_URL ?>book.php"
                    class="btn btn-sm btn-block text-white"
                    style="background:#373A6D;">
 
                     Explore The Book
+
+                </a> -->
+                <div class="dropdown mb-2">
+                        <button class="btn dropdown-toggle btn btn-sm btn-block text-white"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            style="background:#373A6D;"
+                            aria-expanded="false">
+                            Explore The Book
+                        </button>
+
+                        <ul class="dropdown-menu book-hero-actions__menu">
+                            <li>
+                                <a class="dropdown-item"
+                                    href="https://www.amazon.in/Paint-Your-RAINBOW-Jyoti-Sapra-ebook/dp/B0HJNVXNX7"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    Buy in India
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item"
+                                   
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    Buy Internationally
+                                </a>
+                            </li>
+                        </ul>
+                </div>
+                <a href="https://wa.me/?text=https://www.amazon.in/Paint-Your-RAINBOW-Jyoti-Sapra-ebook/dp/B0HJNVXNX7"
+                   class="btn btn-sm btn-block text-white"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   style="background:#373A6D;">
+
+                    <i class="fab fa-whatsapp"></i> Share on WhatsApp
 
                 </a>
 

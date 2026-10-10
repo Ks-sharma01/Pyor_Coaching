@@ -19,11 +19,11 @@ include "includes/header.php";
 
 <div style="padding-top: 20px;padding-bottom: 20px;">
     <h3 style="text-align: center;" class="p-2">
-        <span style="color: #373A6D; text-align: center;">
+        <em style="color: #373A6D; text-align: center;">
             “Inner freedom is not guided by our efforts; it comes from seeing what is true.”
             <br>
-        </span>
-        <span style="color: #373A6D;">The Buddha</span>
+        </em>
+        <span style="color: #373A6D; font-size: 20px">- The Buddha</span>
     </h3>
 </div>
 
@@ -108,11 +108,11 @@ include "includes/header.php";
 
 <div style="padding-top: 30px;padding-bottom: 30px;">
     <h3 style="text-align: center;">
-        <span style="color: #373A6D;">
+        <em style="color: #373A6D;">
             “I took the road less traveled by, and that has made all the difference.”
             <br>
-        </span>
-        <span style="color: #373A6D;">Robert Frost</span>
+        </em>
+        <span style="color: #373A6D; font-size: 20px">- Robert Frost</span>
     </h3>
 </div>
 
@@ -155,11 +155,11 @@ include "includes/header.php";
 
 <div style="padding-top: 30px;padding-bottom: 30px;" class="px-1">
     <h3 style="text-align: center;">
-        <span style="color: #373A6D;">
+        <em style="color: #373A6D;">
             “A leader is one who knows the way, goes the way, and shows the way”
             <br>
-        </span>
-        <span style="color: #373A6D;">John C. Maxwell</span>
+        </em>
+        <span style="color: #373A6D; font-size: 20px">- John C. Maxwell</span>
     </h3>
 </div>
 

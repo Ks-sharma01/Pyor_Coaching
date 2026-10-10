@@ -311,6 +311,15 @@ jQuery(document).ready(function($) {
   };
   siteScroll();
 
+  var $scrollToTop = $('.scroll-to-top');
+  var updateScrollToTop = function() {
+    $scrollToTop.toggleClass('is-visible', $(window).scrollTop() > 300);
+  };
+  updateScrollToTop();
+  $(window).on('scroll', updateScrollToTop);
+  $scrollToTop.on('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
 
   $('.fancybox').on('click', function() {
 	  var visibleLinks = $('.fancybox');

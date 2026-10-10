@@ -34,10 +34,10 @@ include "includes/header.php";
 <div style="padding: 5px 5px 5px 10px">
     <div style="padding-top: 20px;padding-bottom: 20px;">
         <h3 style="text-align: center;">
-            <span style="color: #373A6D;">“The greatest deception men suffer is from their own opinions..”
+            <em style="color: #373A6D;">“The greatest deception men suffer is from their own opinions..”
                 <br>
-            </span>
-            <span style="color: #373A6D;">Leonardo Da Vinci</span>
+            </em>
+            <span style="color: #373A6D; font-size: 20px">- Leonardo Da Vinci</span>
         </h3>
     </div>
 </div>
@@ -161,10 +161,10 @@ include "includes/header.php";
 <div style="padding: 10px 5px 5px 10px">
     <div style="padding-top: 20px;padding-bottom: 20px;">
         <h3 style="text-align: center;">
-            <span style="color: #373A6D;">“The secret of achievement is to hold a picture of a successful outcome in the mind.”
+            <em style="color: #373A6D;">“The secret of achievement is to hold a picture of a successful outcome in the mind.”
                 <br>
-            </span>
-            <span style="color: #373A6D;">Thoreau</span>
+            </em>
+            <span style="color: #373A6D; font-size: 20px">- Thoreau</span>
         </h3>
     </div>
 </div>

@@ -43,9 +43,18 @@ include "includes/header.php";
       <div class="col-md-6 mb-4" data-aos="fade-up">
         <div class="d-lg-flex blog-entry">
           <div class="blog-entry-text">
-            <div class="icon"><img src="<?= BASE_URL ?>images/man.png" alt="Icon" class="img-fluid mb-2" style="height: 90px; width: 90px;"></div>
-            <h3><a href="<?= BASE_URL ?>handle_pressure.php">How To Handle High-Pressure Situations</a></h3>
-            <span class="post-meta mb-2 d-block">July 14, 2026</span>
+            <div class="icon d-flex align-items-center mb-2">
+              <img src="<?= BASE_URL ?>images/man.jpg"
+                  alt="High-pressure situations"
+                  class="img-fluid flex-shrink-0 me-3"
+                  style="height: 90px; width: 90px; object-fit: cover;">
+              <div>
+                <h3 class="text-black my-0">
+                  How To Handle High-Pressure Situations
+                </h3>
+                <p>July 14, 2026</p>
+              </div>
+            </div>
             <p style="text-align: justify;">High-pressure situations can be stressful but don't have to be overwhelming. With the right strategies, you can navigate these challenges with confidence and ease. Here are some tips to help you handle high-pressure situations...</p>
             <a class="btn btn-primary mt-2 text-white" href="<?= BASE_URL ?>handle_pressure.php">Read More..</a>
           </div>
@@ -54,9 +63,18 @@ include "includes/header.php";
       <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
         <div class="d-lg-flex blog-entry">
           <div class="blog-entry-text">
-            <div class="icon"><img src="<?= BASE_URL ?>images/mentoring.png" alt="Icon" class="img-fluid mb-2" style="height: 90px; width: 90px;"></div>
-            <h3><a href="<?= BASE_URL ?>need_hour.php">Executive Coaching - Need of the Hour</a></h3>
-            <span class="post-meta mb-2 d-block">October 02, 2026</span>
+            <div class="icon d-flex align-items-center mb-2">
+              <img src="<?= BASE_URL ?>images/mentoring.jpg"
+                  alt="High-pressure situations"
+                  class="img-fluid flex-shrink-0 me-3"
+                  style="height: 90px; width: 90px; object-fit: cover;">
+              <div>
+                <h3 class="text-black my-0">
+                    Executive Coaching - Need of the Hour
+                </h3>
+                <p>October 02, 2026</p>
+              </div>
+            </div>
             <p style="text-align: justify;">Executives’ roles have become very demanding and require them to demonstrate sheer alacrity, dexterity and versatility in all facets of their responsibilities, be it people management, planning, strategy development...</p>
             <a class="btn btn-primary mt-2 text-white" href="<?= BASE_URL ?>need_hour.php">Read More..</a>
           </div>
@@ -66,9 +84,19 @@ include "includes/header.php";
       <div class="col-md-6 mb-2" data-aos="fade-up">
         <div class="d-lg-flex blog-entry">
           <div class="blog-entry-text">
-            <div class="icon"><img src="<?= BASE_URL ?>images/balance.png" alt="Icon" class="img-fluid mb-2" style="height: 90px; width: 90px;"></div>
-            <h3><a href="<?= BASE_URL ?>work_life.php">Work Life Balance</a></h3>
-            <span class="post-meta mb-2 d-block">June 30, 2026</span>
+            <div class="icon d-flex align-items-center mb-2">
+            <img src="<?= BASE_URL ?>images/balance.jpg"
+                alt="High-pressure situations"
+                class="img-fluid flex-shrink-0 me-3"
+                style="height: 90px; width: 90px; object-fit: cover;">
+
+            <div>
+              <h3 class="text-black my-0">
+                  Work Life Balance
+              </h3>
+              <p>June 30, 2026</p>
+            </div>
+          </div>
             <p style="text-align: justify;">If you are worn out from work and don’t feel like pursuing your hobby, then you are severely deficient in Vitamin “ME”. You are experiencing the “Balance Syndrome” and the symptoms are very obvious – you are checking emails after work; taking calls beyond business hours; stretching yourself for 11-12 hours to meet your...</p>
             <a class="btn btn-primary mt-2 text-white" href="<?= BASE_URL ?>work_life.php">Read More..</a>
           </div>

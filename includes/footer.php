@@ -82,6 +82,10 @@
     </div>
 </footer>
 
+<button class="scroll-to-top" type="button" aria-label="Back to top" title="Back to top">
+    <i class="fas fa-arrow-up" aria-hidden="true"></i>
+</button>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="<?= BASE_URL ?>js/main.js"></script>
 <script async src='https://script-tags.delightchatmedia.com/whatsapp-chat-button/embeds/embed.min.js'></script>
